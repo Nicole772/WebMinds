@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione Contratti Telefonici</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestione Contratti Telefonici</h1>
+    </header>
+
+    <!-- Bottone per toggle del menu -->
+    <div class="menu-container">
+        <button class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </button>
+        <div class="menu-items">
+            <button class="menu-item" onclick="location.href='index.html'">Home</button>
+            <button class="menu-item" onclick="location.href='gestione-sim.html'">Gestione SIM</button>
+            <button class="menu-item" onclick="location.href='visualizza-contratti.html'">Visualizza Contratti</button>
+            <button class="menu-item" onclick="location.href='visualizza-chiamate.html'">Visualizza Chiamate</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            console.log("Menu button clicked");
+            const menu = document.querySelector('.menu-items');
+            if (menu) {
+                menu.classList.toggle('active');
+                console.log("Menu toggled:", menu.classList.contains('active'));
+            } else {
+                console.error("Menu element not found!");
+            }
+        }
+    </script>
+
+    <div class="content">
+        <aside class="sidebar">
+            <div class="nav-buttons">
+                <button onclick="location.href='index.html'">Home</button>
+                <button onclick="location.href='gestione-sim.html'">Gestione SIM</button>
+                <button onclick="location.href='visualizza-contratti.html'">Visualizza Contratti</button>
+                <button onclick="location.href='visualizza-chiamate.html'">Visualizza Chiamate</button>
+            </div>
+            <div class="filter">
+                <h2>Filtro Ricerca</h2>
+                <a href="#funzionalita">Funzionalità</a>
+                <a href="#tecnologie">Tecnologie</a>
+            </div>
+        </aside>
+
+        <section class="showroom">
+            <div id="descrizione-sito" class="section">
+                <h2>Perché questo sito è unico?</h2>
+                    <p>
+                        Questo progetto rappresenta una soluzione moderna, intuitiva ed efficiente per la gestione dei contratti telefonici. Ogni aspetto è stato progettato con attenzione per offrire un'interfaccia user-friendly che semplifica operazioni complesse (mantenendosi coerente come indicato nella consegna del progetto), come il monitoraggio delle SIM, la gestione dei contratti e delle chiamate. 
+                    </p>
+                    <p>
+                        Il sito è progettato per essere responsive, garantendo un'esperienza ottimale su qualsiasi dispositivo, sia desktop che mobile. Le tecnologie utilizzate, come HTML, CSS e JavaScript, assicurano alte prestazioni, una navigazione fluida e una ricerca efficace grazie ai filtri avanzati implementati in ogni sezione.
+                    </p>
+                    </div>
+                    <div id="descrizione-sito" class="section">
+                    <h2>Funzionalità del Sito</h2>
+                    <p>
+                        Il sistema è suddiviso in tre principali sezioni operative, ognuna progettata per garantire una gestione semplice e trasparente delle informazioni.
+                    </p>
+
+                    <h3>1. Gestione delle SIM</h3>
+                    <p>
+                        Le SIM seguono un ciclo di vita ben definito per garantire un'organizzazione chiara e un monitoraggio accurato. Le SIM possono trovarsi in uno dei seguenti stati:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>SIM Non Attiva:</strong> SIM nuove, non ancora associate a un contratto e mai attivate. Queste SIM sono pronte per essere assegnate quando necessario.
+                        </li>
+                        <li>
+                            <strong>SIM Attiva:</strong> SIM attualmente in uso, associate a un contratto telefonico. Lo stato attivo include dettagli come la data di attivazione, il contratto associato e lo stato operativo.
+                        </li>
+                        <li>
+                            <strong>SIM Disattiva:</strong> SIM precedentemente associate a un contratto ma attualmente non in uso. Queste SIM possono essere riattivate e riassegnate, mantenendo una cronologia delle precedenti associazioni.
+                        </li>
+                    </ul>
+
+                    <h3>2. Visualizza Contratti</h3>
+<p>
+    In questa sezione, gli utenti possono consultare una tabella dettagliata con le informazioni relative a ciascun contratto telefonico, tra cui:
+</p>
+<ul>
+    <li>Numero di contratto</li>
+    <li>Data di attivazione</li>
+    <li>Tipo di contratto</li>
+    <li>Credito residuo</li>
+    <li>Minuti residui</li>
+    <li>SIM associata</li>
+</ul>
+<p>
+    La tabella include filtri avanzati per facilitare la ricerca di specifici contratti, garantendo un accesso rapido e preciso alle informazioni desiderate.
+</p>
+
+<h3>3. Gestione delle Chiamate</h3>
+<p>
+    Questa sezione consente di gestire le telefonate effettuate tramite funzionalità CRUD (Create, Read, Update, Delete). Gli utenti possono:
+</p>
+<ul>
+    <li>Aggiungere nuove telefonate</li>
+    <li>Eliminare telefonate registrate</li>
+    <li>Aggiornare le informazioni relative a chiamate esistenti</li>
+</ul>
+
+
+<p>
+    <strong>Costi delle chiamate:</strong>
+</p>
+<ul>
+    <li><strong>Contratto a Ricarica:</strong> €0.10 al minuto</li>
+    <li><strong>Contratto a Consumo:</strong> €0.05 al minuto</li>
+</ul>
+
+<p>
+<p>
+    <strong>Nota:</strong> Dato che un utente non può aggiornare il credito residuo o i minuti disponibili associati al contratto, le telefonate gestite attraverso il nostro sito non consumano credito residuo o minuti disponibili associati al contratto. Questo permette agli utenti di inserire, aggiornare o eliminare telefonate senza alcun impatto sul consumo effettivo del piano telefonico.
+</p>
+<p>
+    Anche qui, i filtri di ricerca garantiscono un accesso rapido e organizzato ai dati delle chiamate.
+</p>
+
+<h3>Caratteristiche chiave</h3>
+<ul>
+    <li>Gestione delle SIM: attivazione, disattivazione e assegnazione contratti</li>
+    <li>Monitoraggio dei contratti telefonici: informazioni dettagliate e aggiornate</li>
+    <li>Registrazione e gestione delle chiamate effettuate</li>
+    <li>Le operazioni sulle chiamate non consumano credito o minuti residui</li>
+    <li>Design responsive e navigazione ottimizzata</li>
+</ul>
+<p>
+    Grazie a queste funzionalità, il sito offre un sistema completo e professionale per la gestione dei contratti telefonici e delle SIM, garantendo un flusso di lavoro semplice e organizzato.
+</p>
+
+
+            </div>
+            <div id="tecnologie" class="section">
+                <h2>Tecnologie Utilizzate</h2>
+                <div class="tech-container">
+                    <div class="tech-item">
+                        <img src="images/html-logo.png" alt="HTML Logo">
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="images/css-logo.png" alt="CSS Logo">
+                        <p>CSS</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="images/js-logo.png" alt="JavaScript Logo">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="images/php-logo.png" alt="PHP Logo">
+                        <p>PHP</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="images/atom-logo.png" alt="Atom Logo">
+                        <p>Atom</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="images/altervista-logo.png" alt="AlterVista Logo">
+                        <p>AlterVista</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gestione Contratti Telefonici, De Vivo Massimo, Nicole Simoni</p>
+    </footer>
+
+    <!-- Inclusione del file JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>

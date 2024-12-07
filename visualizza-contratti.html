@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizza Contratti</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body data-page="contratti">
+    <header>
+        <h1>Visualizza Contratti</h1>
+    </header>
+    
+        <!-- Bottone per toggle del menu -->
+    <div class="menu-container">
+        <button class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </button>
+        <div class="menu-items">
+            <button class="menu-item" onclick="location.href='index.html'">Home</button>
+            <button class="menu-item" onclick="location.href='gestione-sim.html'">Gestione SIM</button>
+            <button class="menu-item" onclick="location.href='visualizza-contratti.html'">Visualizza Contratti</button>
+            <button class="menu-item" onclick="location.href='visualizza-chiamate.html'">Visualizza Chiamate</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            console.log("Menu button clicked");
+            const menu = document.querySelector('.menu-items');
+            if (menu) {
+                menu.classList.toggle('active');
+                console.log("Menu toggled:", menu.classList.contains('active'));
+            } else {
+                console.error("Menu element not found!");
+            }
+        }
+    </script>
+    
+    
+    <div class="content">
+        <aside class="sidebar">
+            <div class="nav-buttons">
+               <button onclick="location.href='index.html'">Home</button>
+                <button onclick="location.href='gestione-sim.html'">Gestione SIM</button>
+                <button onclick="location.href='visualizza-contratti.html'">Visualizza Contratti</button>
+                <button onclick="location.href='visualizza-chiamate.html'">Visualizza Chiamate</button>
+            </div>
+            <div class="filter">
+    			<h2>Filtro Ricerca</h2>
+    			<form id="search-form-contratti">
+        			<label for="tipo-contratto-contratti">Tipo Contratto:</label>
+        			<select id="tipo-contratto-contratti" name="tipo-contratto">
+            			<option value="consumo">Consumo</option>
+            			<option value="ricarica">Ricarica</option>
+        			</select>
+        			<label for="numero-telefono-contratti">Numero di Telefono:</label>
+        			<input type="text" id="numero-telefono-contratti" name="numero-telefono">
+        				<label for="associata-a-contratti">Associata A:</label>
+        			<input type="text" id="associata-a-contratti" name="associata-a">
+        			<button type="submit">Cerca</button>
+    			</form>
+			</div>
+        </aside>
+
+        <div class="showroom" id="sim-results">
+    <div class="title-container">
+        <h2>Elenco Contratti</h2>
+    </div>
+    	<table id="contracts-table">
+    		<thead>
+        		<tr>
+            		<th>Numero</th>
+            		<th>Data Attivazione</th>
+            		<th>Tipo Contratto</th>         
+            		<th>Credito Residuo</th>
+            		<th>Minuti Residui</th>
+            		<th>Associato A</th> 
+        		</tr>
+    		</thead>
+    	<tbody id="contracts-table-body">
+        <?php include 'search.php'; ?>
+    	</tbody>
+	</table>
+</div>
+
+        <section class="results">
+            <div id="contratti-results">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Gestione Contratti Telefonici, De Vivo Massimo, Nicole Simoni</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

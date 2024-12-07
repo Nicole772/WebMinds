@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione SIM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body data-page="sim">
+    <header>
+        <h1>Gestione SIM</h1>
+    </header>
+
+        <!-- Bottone per toggle del menu -->
+        <div class="menu-container">
+            <button class="menu-toggle" onclick="toggleMenu()">
+                ☰
+            </button>
+            <div class="menu-items">
+                <button class="menu-item" onclick="location.href='index.html'">Home</button>
+                <button class="menu-item" onclick="location.href='gestione-sim.html'">Gestione SIM</button>
+                <button class="menu-item" onclick="location.href='visualizza-contratti.html'">Visualizza Contratti</button>
+                <button class="menu-item" onclick="location.href='visualizza-chiamate.html'">Visualizza Chiamate</button>
+            </div>
+            
+        </div>
+    
+        <script>
+            function toggleMenu() {
+                console.log("Menu button clicked");
+                const menu = document.querySelector('.menu-items');
+                if (menu) {
+                    menu.classList.toggle('active');
+                    console.log("Menu toggled:", menu.classList.contains('active'));
+                } else {
+                    console.error("Menu element not found!");
+                }
+            }
+        </script>
+
+    <div class="content">
+        <aside class="sidebar">
+            <div class="nav-buttons">
+               <button onclick="location.href='index.html'">Home</button>
+                <button onclick="location.href='gestione-sim.html'">Gestione SIM</button>
+                <button onclick="location.href='visualizza-contratti.html'">Visualizza Contratti</button>
+                <button onclick="location.href='visualizza-chiamate.html'">Visualizza Chiamate</button>
+            </div>
+            <div class="filter">
+                <h2>Filtro Ricerca</h2>
+                <form id="search-form-sim">
+                    <label for="tipo-contratto-sim">Tipo Contratto:</label>
+                    <select id="tipo-contratto-sim" name="tipo-contratto">
+                        <option value="mini">mini</option>
+                    	<option value="micro">micro</option>
+                    	<option value="nano">nano</option>
+                    </select>
+                    <label for="numero-telefono-sim">Codice SIM:</label>
+                    <input type="text" id="numero-telefono-sim" name="numero-telefono">
+                    <button type="submit">Cerca</button>
+                </form>
+            </div>
+        </aside>
+        <div class="showroom" id="sim-results">
+            <div class="title-container">
+                <h2>Elenco SIM</h2>
+                <button class="action-btn add-sim-btn" data-tooltip="Aggiungi SIM" id="addSimBtn"><i class="fas fa-plus"></i> Aggiungi SIM</button>
+            </div>
+
+            <table id="sim-table">
+                <thead>
+                    <tr>
+                        <th>Codice</th>
+                        <th>Tipo SIM</th>
+                        <th>Associata A</th>
+                        <th>Data Attivazione</th>
+                        <th>Data Disattivazione</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody id="sim-table-body">
+                    <?php include 'search.php'; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+<!-- Popup per selezione contratto -->
+<div id="contractPopup" class="hidden">
+    <h3>Seleziona un Contratto</h3>
+    <select id="contractDropdown">
+        <option value="">Caricamento contratti...</option>
+    </select>
+    <div>
+        <button id="confirmContractBtn">Conferma</button>
+        <button id="cancelContractBtn">Annulla</button>
+    </div>
+</div>
+
+
+<!-- Popup per conferma disattivazione SIM -->
+<div id="deactivatePopup" class="hidden">
+    <h3>Conferma disattivazione</h3>
+    <p>Sei sicuro di voler disattivare questa SIM?</p>
+    <div>
+        <button id="confirmDeactivateBtn">Conferma</button>
+        <button id="cancelDeactivateBtn">Annulla</button>
+    </div>
+</div>
+
+
+
+
+<!-- Popup per aggiungere SIM -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+		<script src="script.js"></script>
+        <span class="close-btn">&times;</span>
+        <h2>Aggiungi SIM</h2>
+        <form id="addSimForm">
+            <input type="hidden" name="action" value="addSim">
+            
+            <!-- Selezione Tipo SIM -->
+            <label for="tipo-sim">Tipo SIM:</label>
+            <select id="tipo-sim" name="tipoSIM">
+                <option value="mini">mini</option>
+                <option value="micro">micro</option>
+                <option value="nano">nano</option>
+            </select><br><br>
+            
+            <!-- Selezione Contratto Telefonico -->
+            <label for="contratto">Associa a Contratto:</label>
+            <select id="contratto" name="contratto">
+                <option value="">Nessun Contratto</option>
+            </select><br><br>
+        </form>
+        
+        <!-- Pulsante per creare la SIM -->
+        <button id="creaSimBtn" class="create-btn">
+            Crea SIM
+        </button>
+    </div>
+</div>
+
+    <!-- Overlay per disabilitare l'interazione con il resto della pagina -->
+    <div class="delete-popup-overlay"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <footer>
+        <p>&copy; 2024 Gestione Contratti Telefonici, De Vivo Massimo, Nicole Simoni</p>
+    </footer>
+</body>
+</html>

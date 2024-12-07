@@ -1,0 +1,1528 @@
+/*style.css*/
+/* Reset CSS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ff1c64;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/*----------------------------------TESTI----------------------------------*/
+header h1 {
+    font-family: 'Inter', sans-serif; 
+    font-size: 3.0rem; 
+    font-weight: 750; 
+    color: #ffffff; 
+    text-align: center; 
+    margin: 1rem 0; 
+    letter-spacing: -0.5px; 
+    text-transform: uppercase; 
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin: 2rem 0 1.2rem 0;
+    padding-bottom: 0.5rem;
+    position: relative;
+    letter-spacing: -0.02em;
+}
+
+h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #007AFF, #0055FF);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+h3:hover::after {
+    width: 100px;
+}
+
+li {
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-size: 1.6rem;
+    color: #555;
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+li::before {
+    content: '•';
+    color: #007AFF;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    transition: transform 0.3s ease;
+}
+
+li:hover::before {
+    transform: scale(1.2);
+}
+
+li:hover {
+    color: #333;
+}
+
+/*----------------------------------NAVIGAZIONE----------------------------------*/
+nav {
+    background-color: #b9364e;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f9286a;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+    padding-bottom: 100px; /*spazio nel footer */
+}
+
+.sidebar {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.nav-buttons {
+    background-color: #f9dede;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff1c64;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-buttons button:hover {
+    background-color: #f9286a;
+    transform: scale(1.05);
+}
+
+.filter {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.filter h2 {
+    color: #ff1c64; 
+    font-size: 1.6rem; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.filter form label {
+    display: block;
+    margin-bottom: 8px; 
+    font-size: 1rem;
+    color: #333; 
+}
+
+.filter form select,
+.filter form input {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;  
+    font-size: 1rem;
+    transition: all 0.3s ease; 
+    padding: 7px;
+}
+
+.filter form select:focus,
+.filter form input:focus {
+    border-color: #ff1c64; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(255, 0, 144, 0.5); 
+}
+
+.filter form button {
+    background-color: #ff1c64;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px; 
+    width: 100%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter form button:hover {
+    background-color: #f9286a; 
+    transform: translateY(-2px); 
+}
+
+.filter form button:active {
+    background-color: #ff0066; 
+    transform: translateY(0); 
+}
+
+.filter a {
+    display: block;
+    background-color: #ffffff;
+    color: #ff1c64;
+    padding: 14px 20px;
+    text-decoration: none; /* Rimuove la sottolineatura */
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 16px; 
+    font-weight: 500; 
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transizioni per l'hover */
+}
+
+/* Effetto hover per i link */
+.filter a:hover {
+    background-color: #ff1c64; 
+    color: white; 
+    transform: translateY(-4px); 
+}
+
+
+.showroom {
+    background-color: white;
+    padding: 20px;
+    width: 75%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sim-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sim-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tech-item {
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.tech-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+.tech-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff1c64;
+}
+
+.tech-item:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #ff1c64;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1002;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+    .content {
+        flex-direction: row;
+    }
+    .sidebar {
+        width: 25%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .showroom {
+        width: 75%;
+    }
+}
+
+@media (min-width: 900px) {
+    .tech-item {
+        width: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav .nav-mobile {
+        display: none; 
+    }
+}
+
+.menu-container {
+    position: relative;
+}
+
+/* Toggle button (menu icon) */
+.menu-toggle {
+    position: fixed;
+    top: 3px;
+    left: 3px;
+    display: none; 
+    background: none;
+   
+    border: none;
+    color: #007aff;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 50%; /* Bottone circolare */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+/* Sidebar menu */
+.menu-items {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 90px 10px; 
+    transition: left 0.3s ease;
+    z-index: 999;
+}
+
+.menu-items.active {
+    left: 0;
+}
+
+/* Menu buttons */
+.menu-item {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff1c64;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #e61857;
+    transform: scale(1.05);
+}
+@media (max-width: 767px) {
+
+    header h1 {
+        font-size: 2.0rem; 
+    }
+    /*//////////////////////////////////////////////*/
+    .menu-toggle {
+        display: block; 
+    }
+    /*//////////////////////////////////////////////*/
+    .sidebar, .filter {
+        display: none; 
+    }
+
+    .toggle-menu-button {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #ff1c64;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 1000;
+    }
+
+    .toggle-sidebar {
+        display: block; 
+    
+    }
+
+    .content {
+        flex-direction: column; 
+        margin-top: 50px; 
+    }
+}
+
+.action-btn {
+    
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+/* Stile del tooltip */
+.action-btn::after {
+    content: attr(data-tooltip); 
+    position: absolute;
+    bottom: 130%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    z-index: 1000; 
+  }
+  
+  /* Mostra il tooltip al passaggio del mouse */
+  .action-btn:hover::after,
+  .action-btn:hover::before {
+    opacity: 1; /* Rende il tooltip visibile */
+    visibility: visible; 
+  }
+
+.enable-btn {
+    background-color: #28C76F;
+    margin-right: 5px;
+}
+
+.enable-btn:hover {
+    background-color: #20A65F;
+    transform: scale(1.05);
+}
+
+.redo-btn {
+    background-color: #ffc107;
+    margin-right: 5px;
+}
+  
+.redo-btn:hover {
+    background-color: #e0a800; 
+    transform: scale(1.05);
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.05);
+}
+
+/*-------------TABELLA SIM------------------------*/
+#sim-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+#sim-table th, #sim-table td {
+    border: 1px solid #dddddd; 
+    padding: 12px;
+    text-align: left;
+}
+
+#sim-table th {
+    background-color: #ff1c64; 
+    color: white; 
+}
+
+#sim-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+#sim-table tbody tr:hover {
+    background-color: #ffcce6; 
+}
+
+.table-wrapper {
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+/* Popup per Attiva Sim e Riattiva Sim */
+#contractPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    z-index: 1001;
+    max-width: 400px;
+    width: 90%;
+}
+
+#contractPopup.hidden {
+    display: none;
+}
+
+#contractPopup select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;  
+    border-radius: 4px;
+    background-color: #f1f1f1; 
+}
+
+#contractPopup button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#confirmContractBtn {
+    background-color: #007bff; 
+    color: white;
+}
+
+#cancelContractBtn {
+    background-color: #f06292;
+    color: white;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Pop-up per disattiva Sim*/
+#deactivatePopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    z-index: 1001;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+
+#deactivatePopup button#confirmDeactivateBtn {
+    background-color: #007bff; /* Colore blu */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+
+#deactivatePopup button#cancelDeactivateBtn {
+    background-color: #f06292; /* Colore rosa */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+#deactivatePopup h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#deactivatePopup p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+
+/*-------------TABELLA CONTRATTI------------------------*/
+#contracts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contracts-table th, #contracts-table td {
+    border: 1px solid #dddddd; 
+    padding: 12px;
+    text-align: left;
+}
+
+#contracts-table th {
+    background-color: #ff1c64; 
+    color: white; 
+}
+
+#contracts-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+#contracts-table tbody tr:hover {
+    background-color: #ffcce6;
+}
+
+/*-------------TABELLA CHIAMATE-------------------*/
+#calls-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#calls-table th, #calls-table td {
+    border: 1px solid #dddddd; 
+    padding: 12px;
+    text-align: left;
+}
+
+#calls-table th {
+    background-color: #ff1c64; 
+    color: white; 
+}
+
+#calls-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+#calls-table tbody tr:hover {
+    background-color: #ffcce6; 
+}
+
+
+/*-------------AGGIUNGI SIM------------------------*/
+.add-sim-btn {
+    justify-self: end;
+    background-color: #007aff; 
+    color: #ffffff; 
+    border: 1px solid #007aff; 
+    padding: 12px 24px;
+    font-size: 16px; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; 
+    font-weight: 600; 
+    text-align: center; 
+    border-radius: 12px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+}
+
+.add-sim-btn:hover {
+    background-color: #0051a8;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
+
+.add-sim-btn:active {
+    background-color: #003e7d; 
+    transform: translateY(0); 
+}
+
+.add-call-btn {
+    justify-self: end;
+    background-color: #007aff;
+    color: #ffffff; 
+    border: 1px solid #007aff;
+    padding: 12px 24px;
+    font-size: 16px; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; /* Font in stile Apple */
+    font-weight: 600; 
+    text-align: center; 
+    border-radius: 12px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transizioni fluide per i vari effetti */
+}
+
+.add-call-btn:hover {
+    background-color: #0051a8; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px);
+}
+
+.add-call-btn:active {
+    background-color: #003e7d; 
+    transform: translateY(0); 
+}
+
+//pulsante Crea Sim
+.create-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; 
+    bottom: 10px;      
+    right: 10px;       
+}
+
+.create-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/*-------------ELIMINA SIM------------------------*/
+.delete-sim-btn {
+    justify-self: end;
+    background-color: #ff3b30; 
+    color: #ffffff; 
+    border: 1px solid #ff3b30; 
+    padding: 12px 24px;
+    font-size: 16px; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; /* Font in stile Apple */
+    font-weight: 600; 
+    text-align: center; 
+    border-radius: 12px; /
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+}
+
+.delete-sim-btn:hover {
+    background-color: #d92c27;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
+
+.delete-sim-btn:active {
+    background-color: #b3211a; 
+    transform: translateY(0); 
+}
+
+
+/* **************************************************** */
+/* Stile generale per la showroom */
+.showroom {
+    padding: 20px;
+    background-color: #f5f5f7; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+
+    /*prova */
+    max-width: 100%; 
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+.show-button h1 {
+    font-family: 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 2rem; 
+    font-weight: 600;
+    color: #f5f5f7; 
+    margin-bottom: 15px;
+    text-align: center; 
+    text-transform: capitalize; 
+}
+
+/* Stile per i titoli */
+.showroom h2 {
+    font-family: 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 2rem; 
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 15px;
+    text-align: center; 
+    text-transform: capitalize; 
+}
+
+/* Aggiunta di una leggera linea sotto i titoli */
+.showroom h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #007aff;
+    margin: 10px auto 0; 
+    border-radius: 2px; 
+}
+
+/* Stile per i paragrafi */
+.showroom p {
+    font-family: 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8; 
+    color: #3a3a3c; 
+    margin: 15px 0;
+    text-align: justify;
+    text-rendering: optimizeLegibility;
+}
+.showroom li {
+    font-family: 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #3a3a3c; 
+    margin: 15px 0;
+    text-align: justify;
+    text-rendering: optimizeLegibility;
+}
+
+/* Evidenziazione delle parole chiave */
+.showroom p strong {
+    color: #007aff; 
+    font-weight: 600;
+}
+
+/* Effetto hover sui paragrafi */
+.showroom p:hover {
+    background-color: #e8e8ed; 
+    border-left: 5px solid #007aff; 
+    padding-left: 15px;
+    transition: all 0.3s ease; 
+    transform: translateY(-3px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .showroom {
+        padding: 2px;
+    }
+
+    .showroom h2 {
+        font-size: 1.8rem;
+    }
+
+    .showroom p {
+        font-size: 1rem;
+    }
+
+    #sim-table th, #sim-table td {
+        padding: 8px; 
+    }
+
+    .table-wrapper {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+   
+}
+/* **************************************************** */
+
+/* Popup generali */
+.popup, .delete-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001; 
+    width: 90%; 
+    max-width: 400px; 
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    animation-duration: 0.3s;
+}
+/* Overlay (sfondo scuro) */
+/*.delete-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Colore scuro semitrasparente */
+    z-index: 1000; /* Overlay sotto al popup 
+    display: none;
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+*/
+/* Contenuto del popup */
+.popup-content, .delete-popup-content {
+    background-color: #ffffff; /* Bianco pulito */
+    border-radius: 12px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-50px);
+    opacity: 0;
+    animation: slideIn 0.3s ease-in-out forwards;
+}
+
+/* Titolo del popup */
+.popup-content h2, .delete-popup-content h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Campi di input */
+.popup-content label, .delete-popup-content label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.popup-content input[type="text"], 
+.popup-content input[type="date"], 
+.popup-content select, 
+.delete-popup-content input[type="text"] {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.popup-content input:focus, 
+.popup-content select:focus, 
+.delete-popup-content input:focus {
+    border-color: #007aff; 
+    box-shadow: 0 0 5px rgba(0, 122, 255, 0.5);
+    outline: none;
+}
+
+/* Pulsanti */
+.popup-content button, .delete-popup-buttons button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007aff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-content button:hover, .delete-popup-buttons button:hover {
+    background-color: #005bb5;
+}
+
+.delete-popup-buttons .cancel {
+    background-color: #f44336;
+}
+
+.delete-popup-buttons .cancel:hover {
+    background-color: #c23629;
+}
+
+/* Pulsante di chiusura */
+.close-btn {
+    font-size: 24px;
+    color: #999;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+/* Overlay animazioni */
+@keyframes fadeIn {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
+
+/* Animazione di chiusura */
+.popup.closing .popup-content {
+    animation: slideOut 0.3s ease-in-out forwards;
+}
+
+/*/* Overlay di sfondo per il popup */
+.delete-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+/* Per il caso di chiusura overlay */
+.delete-popup-overlay.hide {
+    animation: fadeIn 0.3s ease-in-out reverse;
+}
+
+
+/* -------------Stile generale per gli input nel popup------------- */
+.popup-content input[type="time"],
+.popup-content input[type="number"],
+.popup-content input[type="date"] {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+}
+
+/* Stile per il focus degli input */
+.popup-content input[type="time"]:focus,
+.popup-content input[type="number"]:focus,
+.popup-content input[type="date"]:focus {
+    outline: none;
+    border-color: #007aff;
+    box-shadow: 0 0 5px rgba(76, 147, 175, 0.2);
+}
+
+/* Rimuove le frecce spinners dall'input number */
+.popup-content input[type="number"]::-webkit-inner-spin-button,
+.popup-content input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.popup-content input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Stile per il select */
+.popup-content select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Stile per il focus del select */
+.popup-content select:focus {
+    outline: none;
+    border-color: #007aff;
+    box-shadow: 0 0 5px rgba(79, 76, 175, 0.2);
+}
+
+/* Stile per le label */
+.popup-content label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Stile per il container delle informazioni del contratto */
+.contract-info {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contract-info span {
+    font-weight: 500;
+    color: #495057;
+}
+
+/* Stile per il pulsante di salvataggio */
+.popup-content .create-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.popup-content .create-btn:hover {
+    background-color: #005bb5;
+}
+
+/* Aggiunge spazio tra gli elementi del form */
+.popup-content form > * {
+    margin-bottom: 15px;
+}
+
+.delete-call-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    min-width: 300px;
+}
+
+.delete-call-popup.hidden {
+    display: none;
+}
+
+.delete-call-popup.show {
+    display: block;
+}
+
+.delete-call-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.delete-call-body {
+    text-align: center;
+}
+
+.popup-close-btn {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    padding: 5px;
+    line-height: 1;
+}
+
+.popup-close-btn:hover {
+    color: #333;
+}
+
+.delete-call-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/*bottone elimina sia visibile */
+.action-btn.delete-call-btn {
+    
+    background-color: #dc3545  !important;
+    font-size: 16px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.action-btn.delete-call-btn:hover {
+    background-color: #9b1d2a  !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Stile per il bottone modifica */
+.action-btn.edit-call-btn {
+    background-color: #ffc107 !important; 
+    border: none !important;
+    width: 45px !important;
+    height: 35px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    z-index: 1000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Stile per l'icona dentro il bottone */
+.action-btn.edit-call-btn i {
+    color: #fff !important; 
+    font-size: 14px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+}
+
+/* Effetto hover */
+.action-btn.edit-call-btn:hover {
+    background-color: #e0a800 !important; 
+    transform: translateY(-2px) !important;
+}
+
+/* Assicuriamoci che il contenitore non nasconda il bottone */
+td .action-btn.edit-call-btn {
+    position: relative !important;
+    z-index: 1000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: inline-flex !important;
+}
+
+/* il contenitore del bottone non blocchi i click */
+td .action-btn.delete-call-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: relative !important;
+    z-index: 100 !important;
+}
+
+/* Overlay specifico per delete-call */
+.delete-call-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+    animation-duration: 0.3s;
+}
+
+.delete-call-overlay.show {
+    display: block;
+}
+
+#confirmDeleteCallBtn {
+    background-color: #dc3545 !important;
+    color: white !important;
+    border-color: #dc3545 !important;
+}
+
+#confirmDeleteCallBtn:hover {
+    background-color: #7a1620 !important;
+    border-color: #7a1620 !important;
+}
+
+#cancelDeleteCallBtn {
+    background-color: #6c757d !important;
+    color: white !important;
+    border-color: #6c757d !important;
+}
+
+#cancelDeleteCallBtn:hover {
+    background-color: #5a6268 !important;
+    border-color: #545b62 !important;
+}
+
+/* Assicurati che i bottoni siano sempre visibili */
+.delete-call-buttons {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    margin-top: 20px !important;
+}
+
+.delete-call-buttons .popup-btn {
+    padding: 8px 20px !important;
+    margin: 0 5px !important;
+    border-radius: 12px !important; 
+    cursor: pointer !important;
+    font-weight: 500 !important;
+    border: 1px solid !important;
+    min-width: 100px !important; 
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s ease !important; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important; 
+}
+
+/* -------------Stile per modificare i dati del contratto------------- */
+.edit-popup-content {
+    position: fixed;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-20px); 
+    transition: transform 0.3s ease;
+}
+
+.edit-popup[style*="display: flex"] {
+    display: flex !important;
+}
+
+.edit-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.edit-popup-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0;
+}
+
+.edit-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #6e6e73;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.edit-close-btn:hover {
+    background: #f5f5f7;
+    color: #1d1d1f;
+}
+
+.edit-contract-info-top-right {
+    position: absolute;
+    top: 75px;
+    right: 30px;
+    background: rgba(245, 245, 247, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    min-width: 200px;
+}
+
+.edit-contract-info-top-right div {
+    margin-bottom: 5px;
+}
+
+.edit-contract-info-top-right div:last-child {
+    margin-bottom: 0;
+}
+
+.edit-contract-info-top-right .info-label {
+    color: #6e6e73;
+    font-weight: 400;
+}
+
+.edit-contract-info-top-right span:not(.info-label) {
+    color: #1d1d1f;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+
+#editCallForm {
+    margin-top: 80px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1d1d1f;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #0071e3;
+    box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.1);
+}
+
+.create-btn {
+    background: #0071e3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.create-btn:hover {
+    background: #0077ed;
+    transform: translateY(-1px);
+}
+
+.edit-popup.show .edit-popup-content {
+    transform: translateY(0); 
+}
+
+.edit-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-popup.show {
+    display: flex;
+    visibility: visible; 
+    opacity: 1; /*opaco */
+}
