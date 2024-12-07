@@ -1,6 +1,6 @@
-# WebMinds: Gestionale per Contratti Telefonici
+# WebMins: Gestionale per Contratti Telefonici
 
-Benvenuti al repository del progetto **WebMinds**, un gestionale web per la gestione dei contratti telefonici, sviluppato come progetto per il corso di **Programmazione Web 2023-2024**. Questo sistema offre un'interfaccia per la gestione di dati relativi a telefonate, contratti, SIM attive, disattivate e non attive, utilizzando operazioni CRUD complete e funzionalità di ricerca avanzata.
+Benvenuti al repository del progetto **WebMins**, un gestionale web per la gestione dei contratti telefonici, sviluppato come progetto per il corso di **Programmazione Web 2023-2024**. Questo sistema offre un'interfaccia per la gestione di dati relativi a telefonate, contratti, SIM attive, disattivate e non attive, utilizzando operazioni CRUD complete e funzionalità di ricerca avanzata.
 
 ## Descrizione del Progetto
 
@@ -46,7 +46,7 @@ Il database rappresenta un sistema per un operatore di telefonia mobile, struttu
 
 Il progetto è già ospitato online e accessibile tramite il seguente link:
 
-🔗 **[WebMinds - Gestionale per Contratti Telefonici](https://webmins.altervista.org/)**
+🔗 **[WebMins - Gestionale per Contratti Telefonici](https://webmins.altervista.org/)**
 
 Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
 - Visualizzazione dei dati relativi a contratti, telefonate e SIM.
