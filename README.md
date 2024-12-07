@@ -52,3 +52,8 @@ Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
 - Visualizzazione dei dati relativi a contratti, telefonate e SIM.
 - Ricerca avanzata e filtraggio dei dati.
 - Operazioni CRUD sulla tabella "Telefonata".
+
+## Componenti del Team
+
+- **De Vivo Massimo** - Matricola: 1081227
+- **Simoni Nicole** - Matricola: 1080570
