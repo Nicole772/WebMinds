@@ -52,7 +52,3 @@ Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
 - Visualizzazione dei dati relativi a contratti, telefonate e SIM.
 - Ricerca avanzata e filtraggio dei dati.
 - Operazioni CRUD sulla tabella "Telefonata".
-
-Se desideri analizzare il codice sorgente o contribuire al progetto, puoi clonare questo repository utilizzando il comando:
-```bash
-git clone https://github.com/Nicole772/WebMinds.git
