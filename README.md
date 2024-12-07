@@ -44,6 +44,15 @@ Il database rappresenta un sistema per un operatore di telefonia mobile, struttu
 
 ## Esecuzione del Progetto
 
-1. Clonare questo repository:
-   ```bash
-   git clone https://github.com/username/WebMinds.git
+Il progetto è già ospitato online e accessibile tramite il seguente link:
+
+🔗 **[WebMinds - Gestionale per Contratti Telefonici](https://webmins.altervista.org/)**
+
+Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
+- Visualizzazione dei dati relativi a contratti, telefonate e SIM.
+- Ricerca avanzata e filtraggio dei dati.
+- Operazioni CRUD sulla tabella "Telefonata".
+
+Se desideri analizzare il codice sorgente o contribuire al progetto, puoi clonare questo repository utilizzando il comando:
+```bash
+git clone https://github.com/Nicole772/WebMinds.git
