@@ -107,10 +107,6 @@ Se ci sono errori, controllare i log di Tomcat:
 
 ## 📌 **NOTE IMPORTANTI**
 - Se **PostgreSQL ha credenziali diverse**, modificare le variabili d’ambiente.
-- Assicurarsi che il **webservice PHP su Altervista** sia attivo e accessibile all’URL:
-  ```
-  http://tuonome.altervista.org/api/webservice.php
-  ```
 - **Tomcat e PostgreSQL devono essere attivi** prima di eseguire la servlet.
 
 ---
