@@ -1,6 +1,6 @@
 
 
-```md
+
 # 📌 INSTALLAZIONE E AVVIO DELLA SERVLET "TelefoniaServlet"
 
 Questa guida spiega come installare ed eseguire la servlet **TelefoniaServlet** in **Apache Tomcat**, utilizzando **PostgreSQL** come database.
