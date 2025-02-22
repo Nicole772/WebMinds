@@ -1,0 +1,1833 @@
+2025-02-22 12:42:37,404 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 12:43:11,419 - ERROR - Errore inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 12:43:11,419 - ERROR - Errore inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,420 - ERROR - Errore inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,420 - ERROR - Errore inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,420 - ERROR - Errore inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,420 - ERROR - Errore inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,421 - ERROR - Errore inserimento SIM non attiva 40: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,421 - ERROR - Errore inserimento SIM non attiva 14: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,421 - ERROR - Errore inserimento SIM non attiva 67: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,421 - ERROR - Errore inserimento SIM non attiva 54: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,421 - ERROR - Errore inserimento SIM non attiva 15: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,421 - ERROR - Errore inserimento SIM non attiva 68: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,422 - ERROR - Errore inserimento SIM non attiva 76: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,422 - ERROR - Errore inserimento SIM non attiva 13: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,422 - ERROR - Errore inserimento SIM non attiva 51: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:43:11,422 - ERROR - Errore inserimento SIM non attiva 56: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:44:09,652 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 12:45:18,247 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 12:49:08,690 - ERROR - Errore inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 12:49:08,691 - ERROR - Errore inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,691 - ERROR - Errore inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,691 - ERROR - Errore inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,691 - ERROR - Errore inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,691 - ERROR - Errore inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 40: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 14: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 67: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 54: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 15: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 68: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,692 - ERROR - Errore inserimento SIM non attiva 76: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,693 - ERROR - Errore inserimento SIM non attiva 13: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,693 - ERROR - Errore inserimento SIM non attiva 51: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,693 - ERROR - Errore inserimento SIM non attiva 56: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,693 - ERROR - Errore inserimento telefonata 285: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,693 - ERROR - Errore inserimento telefonata 679: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,694 - ERROR - Errore inserimento telefonata 478: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,694 - ERROR - Errore inserimento telefonata 511: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,694 - ERROR - Errore inserimento telefonata 650: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,694 - ERROR - Errore inserimento telefonata 925: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,694 - ERROR - Errore inserimento telefonata 871: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,695 - ERROR - Errore inserimento telefonata 610: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,695 - ERROR - Errore inserimento telefonata 604: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:08,695 - ERROR - Errore inserimento telefonata 93: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,445 - ERROR - Errore inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 12:49:52,446 - ERROR - Errore inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,446 - ERROR - Errore inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,446 - ERROR - Errore inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,446 - ERROR - Errore inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,446 - ERROR - Errore inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 40: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 14: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 67: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 54: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 15: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 68: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,447 - ERROR - Errore inserimento SIM non attiva 76: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,448 - ERROR - Errore inserimento SIM non attiva 13: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,448 - ERROR - Errore inserimento SIM non attiva 51: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,448 - ERROR - Errore inserimento SIM non attiva 56: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,448 - ERROR - Errore inserimento telefonata 285: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,448 - ERROR - Errore inserimento telefonata 679: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,448 - ERROR - Errore inserimento telefonata 478: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,449 - ERROR - Errore inserimento telefonata 511: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,449 - ERROR - Errore inserimento telefonata 650: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,449 - ERROR - Errore inserimento telefonata 925: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,449 - ERROR - Errore inserimento telefonata 871: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,449 - ERROR - Errore inserimento telefonata 610: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,450 - ERROR - Errore inserimento telefonata 604: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:49:52,450 - ERROR - Errore inserimento telefonata 93: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,117 - ERROR - Errore inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 12:52:19,117 - ERROR - Errore inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,117 - ERROR - Errore inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,118 - ERROR - Errore inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,118 - ERROR - Errore inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,118 - ERROR - Errore inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,118 - ERROR - Errore inserimento SIM non attiva 40: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,118 - ERROR - Errore inserimento SIM non attiva 14: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,118 - ERROR - Errore inserimento SIM non attiva 67: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 54: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 15: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 68: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 76: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 13: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 51: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,119 - ERROR - Errore inserimento SIM non attiva 56: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,120 - ERROR - Errore inserimento telefonata 285: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,120 - ERROR - Errore inserimento telefonata 679: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,120 - ERROR - Errore inserimento telefonata 478: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,120 - ERROR - Errore inserimento telefonata 511: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,120 - ERROR - Errore inserimento telefonata 650: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,121 - ERROR - Errore inserimento telefonata 925: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,121 - ERROR - Errore inserimento telefonata 871: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,121 - ERROR - Errore inserimento telefonata 610: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,121 - ERROR - Errore inserimento telefonata 604: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 12:52:19,121 - ERROR - Errore inserimento telefonata 93: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:01:21,231 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 13:01:44,312 - INFO - Dati ricevuti: {
+  "Telefonata": [
+    {
+      "id": "285",
+      "effettuataDa": "1001",
+      "data": "08/12/2024",
+      "ora": "13:17",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "679",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "12:14",
+      "durata": "00:15",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "478",
+      "effettuataDa": "1001",
+      "data": "05/02/2024",
+      "ora": "00:25",
+      "durata": "00:12",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "511",
+      "effettuataDa": "1001",
+      "data": "03/12/2024",
+      "ora": "17:24",
+      "durata": "00:25",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "650",
+      "effettuataDa": "3458341994",
+      "data": "18/12/2024",
+      "ora": "14:45",
+      "durata": "03:20",
+      "costo": "\u20ac 20,00"
+    },
+    {
+      "id": "925",
+      "effettuataDa": "000111222",
+      "data": "20/12/2024",
+      "ora": "17:46",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "871",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "03:45",
+      "durata": "00:00",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "610",
+      "effettuataDa": "1239185025",
+      "data": "20/12/2024",
+      "ora": "20:52",
+      "durata": "00:10",
+      "costo": "\u20ac 1,00"
+    },
+    {
+      "id": "604",
+      "effettuataDa": "000111222",
+      "data": "28/11/2024",
+      "ora": "20:50",
+      "durata": "00:10",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "93",
+      "effettuataDa": "1234567890",
+      "data": "05/12/2024",
+      "ora": "19:22",
+      "durata": "00:13",
+      "costo": "\u20ac 0,65"
+    }
+  ],
+  "ContrattoTelefonico": [
+    {
+      "numero": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "53",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "987654321",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 125,50"
+    },
+    {
+      "numero": "1234567890",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "87",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1001",
+      "dataAttivazione": "04/07/2024",
+      "tipo": "consumo",
+      "minutiResidui": "1000",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1239185025",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "0",
+      "creditoResiduo": "\u20ac 26,20"
+    },
+    {
+      "numero": "999999999",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "120",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3412781961",
+      "dataAttivazione": "05/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 15,62"
+    },
+    {
+      "numero": "000111222",
+      "dataAttivazione": "12/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "60",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "555555555555",
+      "dataAttivazione": "21/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 13,00"
+    },
+    {
+      "numero": "555754489",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "600",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3458341994",
+      "dataAttivazione": "14/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 779,00"
+    },
+    {
+      "numero": "8888888888",
+      "dataAttivazione": "22/02/2025",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 990,00"
+    }
+  ],
+  "SIMAttiva": [
+    {
+      "codice": "11",
+      "tipoSIM": "nano",
+      "associataA": "555555555555",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "1",
+      "tipoSIM": "nano",
+      "associataA": "1239185025",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "97",
+      "tipoSIM": "micro",
+      "associataA": "3458341994",
+      "dataAttivazione": "14/12/2024"
+    },
+    {
+      "codice": "90",
+      "tipoSIM": "nano",
+      "associataA": "999999999",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "990",
+      "tipoSIM": "nano",
+      "associataA": "000111222",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "34",
+      "tipoSIM": "micro",
+      "associataA": "3412781961",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "38",
+      "tipoSIM": "micro",
+      "associataA": "2147483647",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "92",
+      "tipoSIM": "micro",
+      "associataA": "1234567890",
+      "dataAttivazione": "28/11/2024"
+    },
+    {
+      "codice": "98",
+      "tipoSIM": "micro",
+      "associataA": "987654321",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "58",
+      "tipoSIM": "mini",
+      "associataA": "1001",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "49",
+      "tipoSIM": "micro",
+      "associataA": "555754489",
+      "dataAttivazione": "10/12/2024"
+    }
+  ],
+  "SIMDisattiva": [
+    {
+      "codice": "33",
+      "tipoSIM": "mini",
+      "eraAssociataA": "555754489",
+      "dataAttivazione": "06/12/2024",
+      "dataDisattivazione": "10/12/2024"
+    },
+    {
+      "codice": "41",
+      "tipoSIM": "micro",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "05/12/2024",
+      "dataDisattivazione": "05/12/2024"
+    },
+    {
+      "codice": "12",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "3",
+      "tipoSIM": "mini",
+      "eraAssociataA": "1003",
+      "dataAttivazione": "03/01/2023",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "37",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "18",
+      "tipoSIM": "mini",
+      "eraAssociataA": "987654321",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "04/12/2024"
+    },
+    {
+      "codice": "87",
+      "tipoSIM": "ricarica",
+      "eraAssociataA": "3781039582",
+      "dataAttivazione": "01/07/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "35",
+      "tipoSIM": "nano",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "69",
+      "tipoSIM": "micro",
+      "eraAssociataA": "3412781961",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "01/12/2024"
+    }
+  ],
+  "SIMNonAttiva": [
+    {
+      "codice": "40",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "14",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "67",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "54",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "15",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "68",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "76",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "13",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "51",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "56",
+      "tipoSIM": "nano"
+    }
+  ]
+}
+2025-02-22 13:01:44,343 - INFO - \u2705 Contratto aggiornato: 2147483647
+2025-02-22 13:01:44,343 - INFO - \u2705 Contratto aggiornato: 987654321
+2025-02-22 13:01:44,344 - INFO - \u2705 Contratto aggiornato: 1234567890
+2025-02-22 13:01:44,344 - INFO - \u2705 Contratto aggiornato: 1001
+2025-02-22 13:01:44,344 - INFO - \u2705 Contratto aggiornato: 1239185025
+2025-02-22 13:01:44,344 - INFO - \u2705 Contratto aggiornato: 999999999
+2025-02-22 13:01:44,344 - INFO - \u2705 Contratto aggiornato: 3412781961
+2025-02-22 13:01:44,345 - INFO - \u2705 Contratto aggiornato: 000111222
+2025-02-22 13:01:44,345 - INFO - \u2705 Contratto aggiornato: 555555555555
+2025-02-22 13:01:44,345 - INFO - \u2705 Contratto aggiornato: 555754489
+2025-02-22 13:01:44,345 - INFO - \u2705 Contratto aggiornato: 3458341994
+2025-02-22 13:01:44,345 - INFO - \u2705 Contratto aggiornato: 8888888888
+2025-02-22 13:01:44,346 - INFO - \u2705 SIM attiva aggiornata: 11
+2025-02-22 13:01:44,347 - INFO - \u2705 SIM attiva aggiornata: 1
+2025-02-22 13:01:44,347 - INFO - \u2705 SIM attiva aggiornata: 97
+2025-02-22 13:01:44,347 - INFO - \u2705 SIM attiva aggiornata: 90
+2025-02-22 13:01:44,347 - INFO - \u2705 SIM attiva aggiornata: 990
+2025-02-22 13:01:44,348 - INFO - \u2705 SIM attiva aggiornata: 34
+2025-02-22 13:01:44,348 - INFO - \u2705 SIM attiva aggiornata: 38
+2025-02-22 13:01:44,348 - INFO - \u2705 SIM attiva aggiornata: 92
+2025-02-22 13:01:44,348 - INFO - \u2705 SIM attiva aggiornata: 98
+2025-02-22 13:01:44,349 - INFO - \u2705 SIM attiva aggiornata: 58
+2025-02-22 13:01:44,349 - INFO - \u2705 SIM attiva aggiornata: 49
+2025-02-22 13:01:44,349 - INFO - \u2705 SIM disattivata aggiornata: 33
+2025-02-22 13:01:44,350 - INFO - \u2705 SIM disattivata aggiornata: 41
+2025-02-22 13:01:44,350 - INFO - \u2705 SIM disattivata aggiornata: 12
+2025-02-22 13:01:44,351 - ERROR - Errore inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 13:01:44,351 - ERROR - Errore inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:01:44,351 - ERROR - Errore inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:01:44,352 - ERROR - Errore inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:01:44,352 - ERROR - Errore inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:01:44,352 - ERROR - Errore inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:01:44,352 - INFO - \u2705 SIM non attiva aggiornata: 40
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 14
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 67
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 54
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 15
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 68
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 76
+2025-02-22 13:01:44,353 - INFO - \u2705 SIM non attiva aggiornata: 13
+2025-02-22 13:01:44,354 - INFO - \u2705 SIM non attiva aggiornata: 51
+2025-02-22 13:01:44,354 - INFO - \u2705 SIM non attiva aggiornata: 56
+2025-02-22 13:01:44,354 - INFO - \u2705 Telefonata aggiornata: 285
+2025-02-22 13:01:44,354 - INFO - \u2705 Telefonata aggiornata: 679
+2025-02-22 13:01:44,355 - INFO - \u2705 Telefonata aggiornata: 478
+2025-02-22 13:01:44,355 - INFO - \u2705 Telefonata aggiornata: 511
+2025-02-22 13:01:44,355 - INFO - \u2705 Telefonata aggiornata: 650
+2025-02-22 13:01:44,355 - INFO - \u2705 Telefonata aggiornata: 925
+2025-02-22 13:01:44,355 - INFO - \u2705 Telefonata aggiornata: 871
+2025-02-22 13:01:44,355 - INFO - \u2705 Telefonata aggiornata: 610
+2025-02-22 13:01:44,356 - INFO - \u2705 Telefonata aggiornata: 604
+2025-02-22 13:01:44,356 - INFO - \u2705 Telefonata aggiornata: 93
+2025-02-22 13:08:55,351 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 13:09:00,139 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 13:09:32,873 - INFO - Dati ricevuti: {
+  "Telefonata": [
+    {
+      "id": "285",
+      "effettuataDa": "1001",
+      "data": "08/12/2024",
+      "ora": "13:17",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "679",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "12:14",
+      "durata": "00:15",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "478",
+      "effettuataDa": "1001",
+      "data": "05/02/2024",
+      "ora": "00:25",
+      "durata": "00:12",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "511",
+      "effettuataDa": "1001",
+      "data": "03/12/2024",
+      "ora": "17:24",
+      "durata": "00:25",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "650",
+      "effettuataDa": "3458341994",
+      "data": "18/12/2024",
+      "ora": "14:45",
+      "durata": "03:20",
+      "costo": "\u20ac 20,00"
+    },
+    {
+      "id": "925",
+      "effettuataDa": "000111222",
+      "data": "20/12/2024",
+      "ora": "17:46",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "871",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "03:45",
+      "durata": "00:00",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "610",
+      "effettuataDa": "1239185025",
+      "data": "20/12/2024",
+      "ora": "20:52",
+      "durata": "00:10",
+      "costo": "\u20ac 1,00"
+    },
+    {
+      "id": "604",
+      "effettuataDa": "000111222",
+      "data": "28/11/2024",
+      "ora": "20:50",
+      "durata": "00:10",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "93",
+      "effettuataDa": "1234567890",
+      "data": "05/12/2024",
+      "ora": "19:22",
+      "durata": "00:13",
+      "costo": "\u20ac 0,65"
+    }
+  ],
+  "ContrattoTelefonico": [
+    {
+      "numero": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "53",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "987654321",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 125,50"
+    },
+    {
+      "numero": "1234567890",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "87",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1001",
+      "dataAttivazione": "04/07/2024",
+      "tipo": "consumo",
+      "minutiResidui": "1000",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1239185025",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "0",
+      "creditoResiduo": "\u20ac 26,20"
+    },
+    {
+      "numero": "999999999",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "120",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3412781961",
+      "dataAttivazione": "05/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 15,62"
+    },
+    {
+      "numero": "000111222",
+      "dataAttivazione": "12/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "60",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "555555555555",
+      "dataAttivazione": "21/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 13,00"
+    },
+    {
+      "numero": "555754489",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "600",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3458341994",
+      "dataAttivazione": "14/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 779,00"
+    },
+    {
+      "numero": "8888888888",
+      "dataAttivazione": "22/02/2025",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 990,00"
+    }
+  ],
+  "SIMAttiva": [
+    {
+      "codice": "11",
+      "tipoSIM": "nano",
+      "associataA": "555555555555",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "1",
+      "tipoSIM": "nano",
+      "associataA": "1239185025",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "97",
+      "tipoSIM": "micro",
+      "associataA": "3458341994",
+      "dataAttivazione": "14/12/2024"
+    },
+    {
+      "codice": "90",
+      "tipoSIM": "nano",
+      "associataA": "999999999",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "990",
+      "tipoSIM": "nano",
+      "associataA": "000111222",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "34",
+      "tipoSIM": "micro",
+      "associataA": "3412781961",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "38",
+      "tipoSIM": "micro",
+      "associataA": "2147483647",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "92",
+      "tipoSIM": "micro",
+      "associataA": "1234567890",
+      "dataAttivazione": "28/11/2024"
+    },
+    {
+      "codice": "98",
+      "tipoSIM": "micro",
+      "associataA": "987654321",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "58",
+      "tipoSIM": "mini",
+      "associataA": "1001",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "49",
+      "tipoSIM": "micro",
+      "associataA": "555754489",
+      "dataAttivazione": "10/12/2024"
+    }
+  ],
+  "SIMDisattiva": [
+    {
+      "codice": "33",
+      "tipoSIM": "mini",
+      "eraAssociataA": "555754489",
+      "dataAttivazione": "06/12/2024",
+      "dataDisattivazione": "10/12/2024"
+    },
+    {
+      "codice": "41",
+      "tipoSIM": "micro",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "05/12/2024",
+      "dataDisattivazione": "05/12/2024"
+    },
+    {
+      "codice": "12",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "3",
+      "tipoSIM": "mini",
+      "eraAssociataA": "1003",
+      "dataAttivazione": "03/01/2023",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "37",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "18",
+      "tipoSIM": "mini",
+      "eraAssociataA": "987654321",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "04/12/2024"
+    },
+    {
+      "codice": "87",
+      "tipoSIM": "ricarica",
+      "eraAssociataA": "3781039582",
+      "dataAttivazione": "01/07/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "35",
+      "tipoSIM": "nano",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "69",
+      "tipoSIM": "micro",
+      "eraAssociataA": "3412781961",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "01/12/2024"
+    }
+  ],
+  "SIMNonAttiva": [
+    {
+      "codice": "40",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "14",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "67",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "54",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "15",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "68",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "76",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "13",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "51",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "56",
+      "tipoSIM": "nano"
+    }
+  ]
+}
+2025-02-22 13:09:32,905 - INFO - \u2705 Contratto aggiornato: 2147483647
+2025-02-22 13:09:32,905 - INFO - \u2705 Contratto aggiornato: 987654321
+2025-02-22 13:09:32,906 - INFO - \u2705 Contratto aggiornato: 1234567890
+2025-02-22 13:09:32,906 - INFO - \u2705 Contratto aggiornato: 1001
+2025-02-22 13:09:32,906 - INFO - \u2705 Contratto aggiornato: 1239185025
+2025-02-22 13:09:32,906 - INFO - \u2705 Contratto aggiornato: 999999999
+2025-02-22 13:09:32,906 - INFO - \u2705 Contratto aggiornato: 3412781961
+2025-02-22 13:09:32,906 - INFO - \u2705 Contratto aggiornato: 000111222
+2025-02-22 13:09:32,907 - INFO - \u2705 Contratto aggiornato: 555555555555
+2025-02-22 13:09:32,907 - INFO - \u2705 Contratto aggiornato: 555754489
+2025-02-22 13:09:32,907 - INFO - \u2705 Contratto aggiornato: 3458341994
+2025-02-22 13:09:32,907 - INFO - \u2705 Contratto aggiornato: 8888888888
+2025-02-22 13:09:32,908 - INFO - \u2705 SIM attiva aggiornata: 11
+2025-02-22 13:09:32,909 - INFO - \u2705 SIM attiva aggiornata: 1
+2025-02-22 13:09:32,909 - INFO - \u2705 SIM attiva aggiornata: 97
+2025-02-22 13:09:32,909 - INFO - \u2705 SIM attiva aggiornata: 90
+2025-02-22 13:09:32,909 - INFO - \u2705 SIM attiva aggiornata: 990
+2025-02-22 13:09:32,910 - INFO - \u2705 SIM attiva aggiornata: 34
+2025-02-22 13:09:32,910 - INFO - \u2705 SIM attiva aggiornata: 38
+2025-02-22 13:09:32,910 - INFO - \u2705 SIM attiva aggiornata: 92
+2025-02-22 13:09:32,910 - INFO - \u2705 SIM attiva aggiornata: 98
+2025-02-22 13:09:32,911 - INFO - \u2705 SIM attiva aggiornata: 58
+2025-02-22 13:09:32,911 - INFO - \u2705 SIM attiva aggiornata: 49
+2025-02-22 13:09:32,911 - INFO - \u2705 SIM disattivata aggiornata: 33
+2025-02-22 13:09:32,912 - INFO - \u2705 SIM disattivata aggiornata: 41
+2025-02-22 13:09:32,912 - INFO - \u2705 SIM disattivata aggiornata: 12
+2025-02-22 13:09:32,913 - ERROR - \u274c ERRORE inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 13:09:32,913 - ERROR - \u274c ERRORE inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:09:32,914 - ERROR - \u274c ERRORE inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:09:32,914 - ERROR - \u274c ERRORE inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:09:32,914 - ERROR - \u274c ERRORE inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:09:32,914 - ERROR - \u274c ERRORE inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:09:32,914 - INFO - \u2705 SIM non attiva aggiornata: 40
+2025-02-22 13:09:32,914 - INFO - \u2705 SIM non attiva aggiornata: 14
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 67
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 54
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 15
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 68
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 76
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 13
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 51
+2025-02-22 13:09:32,915 - INFO - \u2705 SIM non attiva aggiornata: 56
+2025-02-22 13:09:32,916 - INFO - \u2705 Telefonata aggiornata: 285
+2025-02-22 13:09:32,916 - INFO - \u2705 Telefonata aggiornata: 679
+2025-02-22 13:09:32,917 - INFO - \u2705 Telefonata aggiornata: 478
+2025-02-22 13:09:32,917 - INFO - \u2705 Telefonata aggiornata: 511
+2025-02-22 13:09:32,917 - INFO - \u2705 Telefonata aggiornata: 650
+2025-02-22 13:09:32,917 - INFO - \u2705 Telefonata aggiornata: 925
+2025-02-22 13:09:32,917 - INFO - \u2705 Telefonata aggiornata: 871
+2025-02-22 13:09:32,918 - INFO - \u2705 Telefonata aggiornata: 610
+2025-02-22 13:09:32,918 - INFO - \u2705 Telefonata aggiornata: 604
+2025-02-22 13:09:32,918 - INFO - \u2705 Telefonata aggiornata: 93
+2025-02-22 13:12:06,864 - INFO - Dati ricevuti: {
+  "Telefonata": [
+    {
+      "id": "285",
+      "effettuataDa": "1001",
+      "data": "08/12/2024",
+      "ora": "13:17",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "679",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "12:14",
+      "durata": "00:15",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "478",
+      "effettuataDa": "1001",
+      "data": "05/02/2024",
+      "ora": "00:25",
+      "durata": "00:12",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "511",
+      "effettuataDa": "1001",
+      "data": "03/12/2024",
+      "ora": "17:24",
+      "durata": "00:25",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "650",
+      "effettuataDa": "3458341994",
+      "data": "18/12/2024",
+      "ora": "14:45",
+      "durata": "03:20",
+      "costo": "\u20ac 20,00"
+    },
+    {
+      "id": "925",
+      "effettuataDa": "000111222",
+      "data": "20/12/2024",
+      "ora": "17:46",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "871",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "03:45",
+      "durata": "00:00",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "610",
+      "effettuataDa": "1239185025",
+      "data": "20/12/2024",
+      "ora": "20:52",
+      "durata": "00:10",
+      "costo": "\u20ac 1,00"
+    },
+    {
+      "id": "604",
+      "effettuataDa": "000111222",
+      "data": "28/11/2024",
+      "ora": "20:50",
+      "durata": "00:10",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "93",
+      "effettuataDa": "1234567890",
+      "data": "05/12/2024",
+      "ora": "19:22",
+      "durata": "00:13",
+      "costo": "\u20ac 0,65"
+    }
+  ],
+  "ContrattoTelefonico": [
+    {
+      "numero": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "53",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "987654321",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 125,50"
+    },
+    {
+      "numero": "1234567890",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "87",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1001",
+      "dataAttivazione": "04/07/2024",
+      "tipo": "consumo",
+      "minutiResidui": "1000",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1239185025",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "0",
+      "creditoResiduo": "\u20ac 26,20"
+    },
+    {
+      "numero": "999999999",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "120",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3412781961",
+      "dataAttivazione": "05/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 15,62"
+    },
+    {
+      "numero": "000111222",
+      "dataAttivazione": "12/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "60",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "555555555555",
+      "dataAttivazione": "21/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 13,00"
+    },
+    {
+      "numero": "555754489",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "600",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3458341994",
+      "dataAttivazione": "14/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 779,00"
+    },
+    {
+      "numero": "8888888888",
+      "dataAttivazione": "22/02/2025",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 990,00"
+    },
+    {
+      "numero": "666666666",
+      "dataAttivazione": "22/02/2025",
+      "tipo": "consumo",
+      "minutiResidui": "150",
+      "creditoResiduo": null
+    }
+  ],
+  "SIMAttiva": [
+    {
+      "codice": "11",
+      "tipoSIM": "nano",
+      "associataA": "555555555555",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "1",
+      "tipoSIM": "nano",
+      "associataA": "1239185025",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "97",
+      "tipoSIM": "micro",
+      "associataA": "3458341994",
+      "dataAttivazione": "14/12/2024"
+    },
+    {
+      "codice": "90",
+      "tipoSIM": "nano",
+      "associataA": "999999999",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "990",
+      "tipoSIM": "nano",
+      "associataA": "000111222",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "34",
+      "tipoSIM": "micro",
+      "associataA": "3412781961",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "38",
+      "tipoSIM": "micro",
+      "associataA": "2147483647",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "92",
+      "tipoSIM": "micro",
+      "associataA": "1234567890",
+      "dataAttivazione": "28/11/2024"
+    },
+    {
+      "codice": "98",
+      "tipoSIM": "micro",
+      "associataA": "987654321",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "58",
+      "tipoSIM": "mini",
+      "associataA": "1001",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "49",
+      "tipoSIM": "micro",
+      "associataA": "555754489",
+      "dataAttivazione": "10/12/2024"
+    }
+  ],
+  "SIMDisattiva": [
+    {
+      "codice": "33",
+      "tipoSIM": "mini",
+      "eraAssociataA": "555754489",
+      "dataAttivazione": "06/12/2024",
+      "dataDisattivazione": "10/12/2024"
+    },
+    {
+      "codice": "41",
+      "tipoSIM": "micro",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "05/12/2024",
+      "dataDisattivazione": "05/12/2024"
+    },
+    {
+      "codice": "12",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "3",
+      "tipoSIM": "mini",
+      "eraAssociataA": "1003",
+      "dataAttivazione": "03/01/2023",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "37",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "18",
+      "tipoSIM": "mini",
+      "eraAssociataA": "987654321",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "04/12/2024"
+    },
+    {
+      "codice": "87",
+      "tipoSIM": "ricarica",
+      "eraAssociataA": "3781039582",
+      "dataAttivazione": "01/07/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "35",
+      "tipoSIM": "nano",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "69",
+      "tipoSIM": "micro",
+      "eraAssociataA": "3412781961",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "01/12/2024"
+    }
+  ],
+  "SIMNonAttiva": [
+    {
+      "codice": "40",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "14",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "67",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "54",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "15",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "68",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "76",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "13",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "51",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "56",
+      "tipoSIM": "nano"
+    }
+  ]
+}
+2025-02-22 13:12:06,891 - INFO - \u2705 Contratto aggiornato: 2147483647
+2025-02-22 13:12:06,891 - INFO - \u2705 Contratto aggiornato: 987654321
+2025-02-22 13:12:06,891 - INFO - \u2705 Contratto aggiornato: 1234567890
+2025-02-22 13:12:06,892 - INFO - \u2705 Contratto aggiornato: 1001
+2025-02-22 13:12:06,892 - INFO - \u2705 Contratto aggiornato: 1239185025
+2025-02-22 13:12:06,892 - INFO - \u2705 Contratto aggiornato: 999999999
+2025-02-22 13:12:06,892 - INFO - \u2705 Contratto aggiornato: 3412781961
+2025-02-22 13:12:06,892 - INFO - \u2705 Contratto aggiornato: 000111222
+2025-02-22 13:12:06,893 - INFO - \u2705 Contratto aggiornato: 555555555555
+2025-02-22 13:12:06,893 - INFO - \u2705 Contratto aggiornato: 555754489
+2025-02-22 13:12:06,893 - INFO - \u2705 Contratto aggiornato: 3458341994
+2025-02-22 13:12:06,893 - INFO - \u2705 Contratto aggiornato: 8888888888
+2025-02-22 13:12:06,893 - INFO - \u2705 Contratto aggiornato: 666666666
+2025-02-22 13:12:06,894 - INFO - \u2705 SIM attiva aggiornata: 11
+2025-02-22 13:12:06,895 - INFO - \u2705 SIM attiva aggiornata: 1
+2025-02-22 13:12:06,895 - INFO - \u2705 SIM attiva aggiornata: 97
+2025-02-22 13:12:06,895 - INFO - \u2705 SIM attiva aggiornata: 90
+2025-02-22 13:12:06,895 - INFO - \u2705 SIM attiva aggiornata: 990
+2025-02-22 13:12:06,896 - INFO - \u2705 SIM attiva aggiornata: 34
+2025-02-22 13:12:06,896 - INFO - \u2705 SIM attiva aggiornata: 38
+2025-02-22 13:12:06,896 - INFO - \u2705 SIM attiva aggiornata: 92
+2025-02-22 13:12:06,896 - INFO - \u2705 SIM attiva aggiornata: 98
+2025-02-22 13:12:06,897 - INFO - \u2705 SIM attiva aggiornata: 58
+2025-02-22 13:12:06,897 - INFO - \u2705 SIM attiva aggiornata: 49
+2025-02-22 13:12:06,897 - INFO - \u2705 SIM disattivata aggiornata: 33
+2025-02-22 13:12:06,898 - INFO - \u2705 SIM disattivata aggiornata: 41
+2025-02-22 13:12:06,898 - INFO - \u2705 SIM disattivata aggiornata: 12
+2025-02-22 13:12:06,899 - ERROR - \u274c ERRORE inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 13:12:06,900 - ERROR - \u274c ERRORE inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:12:06,900 - ERROR - \u274c ERRORE inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:12:06,900 - ERROR - \u274c ERRORE inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:12:06,900 - ERROR - \u274c ERRORE inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:12:06,900 - ERROR - \u274c ERRORE inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:12:06,901 - INFO - \u2705 SIM non attiva aggiornata: 40
+2025-02-22 13:12:06,901 - INFO - \u2705 SIM non attiva aggiornata: 14
+2025-02-22 13:12:06,901 - INFO - \u2705 SIM non attiva aggiornata: 67
+2025-02-22 13:12:06,901 - INFO - \u2705 SIM non attiva aggiornata: 54
+2025-02-22 13:12:06,901 - INFO - \u2705 SIM non attiva aggiornata: 15
+2025-02-22 13:12:06,901 - INFO - \u2705 SIM non attiva aggiornata: 68
+2025-02-22 13:12:06,902 - INFO - \u2705 SIM non attiva aggiornata: 76
+2025-02-22 13:12:06,902 - INFO - \u2705 SIM non attiva aggiornata: 13
+2025-02-22 13:12:06,902 - INFO - \u2705 SIM non attiva aggiornata: 51
+2025-02-22 13:12:06,902 - INFO - \u2705 SIM non attiva aggiornata: 56
+2025-02-22 13:12:06,902 - INFO - \u2705 Telefonata aggiornata: 285
+2025-02-22 13:12:06,903 - INFO - \u2705 Telefonata aggiornata: 679
+2025-02-22 13:12:06,903 - INFO - \u2705 Telefonata aggiornata: 478
+2025-02-22 13:12:06,903 - INFO - \u2705 Telefonata aggiornata: 511
+2025-02-22 13:12:06,903 - INFO - \u2705 Telefonata aggiornata: 650
+2025-02-22 13:12:06,903 - INFO - \u2705 Telefonata aggiornata: 925
+2025-02-22 13:12:06,904 - INFO - \u2705 Telefonata aggiornata: 871
+2025-02-22 13:12:06,904 - INFO - \u2705 Telefonata aggiornata: 610
+2025-02-22 13:12:06,904 - INFO - \u2705 Telefonata aggiornata: 604
+2025-02-22 13:12:06,904 - INFO - \u2705 Telefonata aggiornata: 93
+2025-02-22 13:14:06,468 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 13:14:08,193 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 13:14:09,823 - INFO - C:\Users\Massimo De Vivo\Desktop\prog\myapp\myapp\myController.py changed, reloading.
+2025-02-22 13:15:44,187 - INFO - Dati ricevuti: {
+  "Telefonata": [
+    {
+      "id": "285",
+      "effettuataDa": "1001",
+      "data": "08/12/2024",
+      "ora": "13:17",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "679",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "12:14",
+      "durata": "00:15",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "478",
+      "effettuataDa": "1001",
+      "data": "05/02/2024",
+      "ora": "00:25",
+      "durata": "00:12",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "511",
+      "effettuataDa": "1001",
+      "data": "03/12/2024",
+      "ora": "17:24",
+      "durata": "00:25",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "650",
+      "effettuataDa": "3458341994",
+      "data": "18/12/2024",
+      "ora": "14:45",
+      "durata": "03:20",
+      "costo": "\u20ac 20,00"
+    },
+    {
+      "id": "925",
+      "effettuataDa": "000111222",
+      "data": "20/12/2024",
+      "ora": "17:46",
+      "durata": "00:20",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "871",
+      "effettuataDa": "000111222",
+      "data": "29/11/2024",
+      "ora": "03:45",
+      "durata": "00:00",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "610",
+      "effettuataDa": "1239185025",
+      "data": "20/12/2024",
+      "ora": "20:52",
+      "durata": "00:10",
+      "costo": "\u20ac 1,00"
+    },
+    {
+      "id": "604",
+      "effettuataDa": "000111222",
+      "data": "28/11/2024",
+      "ora": "20:50",
+      "durata": "00:10",
+      "costo": "\u20ac 0,00"
+    },
+    {
+      "id": "93",
+      "effettuataDa": "1234567890",
+      "data": "05/12/2024",
+      "ora": "19:22",
+      "durata": "00:13",
+      "costo": "\u20ac 0,65"
+    }
+  ],
+  "ContrattoTelefonico": [
+    {
+      "numero": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "53",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "987654321",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 125,50"
+    },
+    {
+      "numero": "1234567890",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "87",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1001",
+      "dataAttivazione": "04/07/2024",
+      "tipo": "consumo",
+      "minutiResidui": "1000",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "1239185025",
+      "dataAttivazione": "28/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "0",
+      "creditoResiduo": "\u20ac 26,20"
+    },
+    {
+      "numero": "999999999",
+      "dataAttivazione": "29/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "120",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3412781961",
+      "dataAttivazione": "05/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 15,62"
+    },
+    {
+      "numero": "000111222",
+      "dataAttivazione": "12/11/2024",
+      "tipo": "consumo",
+      "minutiResidui": "60",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "555555555555",
+      "dataAttivazione": "21/11/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 13,00"
+    },
+    {
+      "numero": "555754489",
+      "dataAttivazione": "10/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": "600",
+      "creditoResiduo": null
+    },
+    {
+      "numero": "3458341994",
+      "dataAttivazione": "14/12/2024",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 779,00"
+    },
+    {
+      "numero": "8888888888",
+      "dataAttivazione": "22/02/2025",
+      "tipo": "ricarica",
+      "minutiResidui": null,
+      "creditoResiduo": "\u20ac 990,00"
+    },
+    {
+      "numero": "666666666",
+      "dataAttivazione": "22/02/2025",
+      "tipo": "consumo",
+      "minutiResidui": "150",
+      "creditoResiduo": null
+    }
+  ],
+  "SIMAttiva": [
+    {
+      "codice": "11",
+      "tipoSIM": "nano",
+      "associataA": "555555555555",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "1",
+      "tipoSIM": "nano",
+      "associataA": "1239185025",
+      "dataAttivazione": "05/12/2024"
+    },
+    {
+      "codice": "97",
+      "tipoSIM": "micro",
+      "associataA": "3458341994",
+      "dataAttivazione": "14/12/2024"
+    },
+    {
+      "codice": "90",
+      "tipoSIM": "nano",
+      "associataA": "999999999",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "990",
+      "tipoSIM": "nano",
+      "associataA": "000111222",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "34",
+      "tipoSIM": "micro",
+      "associataA": "3412781961",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "38",
+      "tipoSIM": "micro",
+      "associataA": "2147483647",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "92",
+      "tipoSIM": "micro",
+      "associataA": "1234567890",
+      "dataAttivazione": "28/11/2024"
+    },
+    {
+      "codice": "98",
+      "tipoSIM": "micro",
+      "associataA": "987654321",
+      "dataAttivazione": "10/12/2024"
+    },
+    {
+      "codice": "58",
+      "tipoSIM": "mini",
+      "associataA": "1001",
+      "dataAttivazione": "30/11/2024"
+    },
+    {
+      "codice": "49",
+      "tipoSIM": "micro",
+      "associataA": "555754489",
+      "dataAttivazione": "10/12/2024"
+    }
+  ],
+  "SIMDisattiva": [
+    {
+      "codice": "33",
+      "tipoSIM": "mini",
+      "eraAssociataA": "555754489",
+      "dataAttivazione": "06/12/2024",
+      "dataDisattivazione": "10/12/2024"
+    },
+    {
+      "codice": "41",
+      "tipoSIM": "micro",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "05/12/2024",
+      "dataDisattivazione": "05/12/2024"
+    },
+    {
+      "codice": "12",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "3",
+      "tipoSIM": "mini",
+      "eraAssociataA": "1003",
+      "dataAttivazione": "03/01/2023",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "37",
+      "tipoSIM": "micro",
+      "eraAssociataA": "2147483647",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "18",
+      "tipoSIM": "mini",
+      "eraAssociataA": "987654321",
+      "dataAttivazione": "29/11/2024",
+      "dataDisattivazione": "04/12/2024"
+    },
+    {
+      "codice": "87",
+      "tipoSIM": "ricarica",
+      "eraAssociataA": "3781039582",
+      "dataAttivazione": "01/07/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "35",
+      "tipoSIM": "nano",
+      "eraAssociataA": "555555555555",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "30/11/2024"
+    },
+    {
+      "codice": "69",
+      "tipoSIM": "micro",
+      "eraAssociataA": "3412781961",
+      "dataAttivazione": "30/11/2024",
+      "dataDisattivazione": "01/12/2024"
+    }
+  ],
+  "SIMNonAttiva": [
+    {
+      "codice": "40",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "14",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "67",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "54",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "15",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "68",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "76",
+      "tipoSIM": "micro"
+    },
+    {
+      "codice": "13",
+      "tipoSIM": "nano"
+    },
+    {
+      "codice": "51",
+      "tipoSIM": "mini"
+    },
+    {
+      "codice": "56",
+      "tipoSIM": "nano"
+    }
+  ]
+}
+2025-02-22 13:15:44,215 - INFO - \u2705 Contratto aggiornato: 2147483647
+2025-02-22 13:15:44,215 - INFO - \u2705 Contratto aggiornato: 987654321
+2025-02-22 13:15:44,215 - INFO - \u2705 Contratto aggiornato: 1234567890
+2025-02-22 13:15:44,215 - INFO - \u2705 Contratto aggiornato: 1001
+2025-02-22 13:15:44,216 - INFO - \u2705 Contratto aggiornato: 1239185025
+2025-02-22 13:15:44,216 - INFO - \u2705 Contratto aggiornato: 999999999
+2025-02-22 13:15:44,216 - INFO - \u2705 Contratto aggiornato: 3412781961
+2025-02-22 13:15:44,216 - INFO - \u2705 Contratto aggiornato: 000111222
+2025-02-22 13:15:44,216 - INFO - \u2705 Contratto aggiornato: 555555555555
+2025-02-22 13:15:44,217 - INFO - \u2705 Contratto aggiornato: 555754489
+2025-02-22 13:15:44,217 - INFO - \u2705 Contratto aggiornato: 3458341994
+2025-02-22 13:15:44,217 - INFO - \u2705 Contratto aggiornato: 8888888888
+2025-02-22 13:15:44,217 - INFO - \u2705 Contratto aggiornato: 666666666
+2025-02-22 13:15:44,218 - INFO - \u2705 SIM attiva aggiornata: 11
+2025-02-22 13:15:44,219 - INFO - \u2705 SIM attiva aggiornata: 1
+2025-02-22 13:15:44,219 - INFO - \u2705 SIM attiva aggiornata: 97
+2025-02-22 13:15:44,219 - INFO - \u2705 SIM attiva aggiornata: 90
+2025-02-22 13:15:44,219 - INFO - \u2705 SIM attiva aggiornata: 990
+2025-02-22 13:15:44,220 - INFO - \u2705 SIM attiva aggiornata: 34
+2025-02-22 13:15:44,220 - INFO - \u2705 SIM attiva aggiornata: 38
+2025-02-22 13:15:44,220 - INFO - \u2705 SIM attiva aggiornata: 92
+2025-02-22 13:15:44,221 - INFO - \u2705 SIM attiva aggiornata: 98
+2025-02-22 13:15:44,221 - INFO - \u2705 SIM attiva aggiornata: 58
+2025-02-22 13:15:44,221 - INFO - \u2705 SIM attiva aggiornata: 49
+2025-02-22 13:15:44,222 - INFO - \u2705 SIM disattivata aggiornata: 33
+2025-02-22 13:15:44,222 - INFO - \u2705 SIM disattivata aggiornata: 41
+2025-02-22 13:15:44,223 - INFO - \u2705 SIM disattivata aggiornata: 12
+2025-02-22 13:15:44,224 - ERROR - \u274c ERRORE inserimento SIM disattivata 3: ERRORE:  la INSERT o l'UPDATE sulla tabella "SIMDisattiva" viola il vincolo di chiave esterna "SIMDisattiva_eraAssociataA_fkey"
+DETAIL:  La chiave (eraAssociataA)=(1003) non è presente nella tabella "ContrattoTelefonico".
+
+2025-02-22 13:15:44,224 - ERROR - \u274c ERRORE inserimento SIM disattivata 37: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:15:44,224 - ERROR - \u274c ERRORE inserimento SIM disattivata 18: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:15:44,224 - ERROR - \u274c ERRORE inserimento SIM disattivata 87: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:15:44,225 - ERROR - \u274c ERRORE inserimento SIM disattivata 35: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:15:44,225 - ERROR - \u274c ERRORE inserimento SIM disattivata 69: ERRORE:  la transazione corrente è interrotta, i comandi saranno ignorati fino alla fine del blocco della transazione
+
+2025-02-22 13:15:44,225 - INFO - \u2705 SIM non attiva aggiornata: 40
+2025-02-22 13:15:44,225 - INFO - \u2705 SIM non attiva aggiornata: 14
+2025-02-22 13:15:44,225 - INFO - \u2705 SIM non attiva aggiornata: 67
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 54
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 15
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 68
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 76
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 13
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 51
+2025-02-22 13:15:44,226 - INFO - \u2705 SIM non attiva aggiornata: 56
+2025-02-22 13:15:44,227 - INFO - \u2705 Telefonata aggiornata: 285
+2025-02-22 13:15:44,227 - INFO - \u2705 Telefonata aggiornata: 679
+2025-02-22 13:15:44,228 - INFO - \u2705 Telefonata aggiornata: 478
+2025-02-22 13:15:44,228 - INFO - \u2705 Telefonata aggiornata: 511
+2025-02-22 13:15:44,228 - INFO - \u2705 Telefonata aggiornata: 650
+2025-02-22 13:15:44,228 - INFO - \u2705 Telefonata aggiornata: 925
+2025-02-22 13:15:44,228 - INFO - \u2705 Telefonata aggiornata: 871
+2025-02-22 13:15:44,229 - INFO - \u2705 Telefonata aggiornata: 610
+2025-02-22 13:15:44,229 - INFO - \u2705 Telefonata aggiornata: 604
+2025-02-22 13:15:44,229 - INFO - \u2705 Telefonata aggiornata: 93
