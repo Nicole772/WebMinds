@@ -23,7 +23,7 @@ Aprire **cmd** ed eseguire:
 ```sh
 setx DB_URL "jdbc:postgresql://localhost:5432/telefonia"
 setx DB_USER "postgres"
-setx DB_PASSWORD "password_del_prof"
+setx DB_PASSWORD "password"
 ```
 Chiudere e riaprire il terminale per applicare le modifiche.
 
