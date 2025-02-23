@@ -24,13 +24,13 @@ def ImportaDatiAltervista(request):
         conn = psycopg2.connect(
             database="Telefonia",
             user="postgres",
-            password="password",  # Modifica con la tua password
+            password="password", 
             host="localhost",
             port="5432"
         )
         cur = conn.cursor()
 
-        # 1️⃣ Inserisci i contratti telefonici
+        # contratti telefonici
         if "ContrattoTelefonico" in dati:
             for contratto in dati["ContrattoTelefonico"]:
                 try:
@@ -58,7 +58,7 @@ def ImportaDatiAltervista(request):
 
             conn.commit()  # Commit dopo ogni inserimento per evitare perdite
 
-        # 2️⃣ Inserisci le SIM attive
+        # SIM attive
         if "SIMAttiva" in dati:
             for sim in dati["SIMAttiva"]:
                 try:
@@ -81,7 +81,7 @@ def ImportaDatiAltervista(request):
 
             conn.commit()  # Commit per SIMAttiva
 
-        # 3️⃣ Inserisci le SIM disattivate
+        # SIM disattivate
         if "SIMDisattiva" in dati:
             for sim in dati["SIMDisattiva"]:
                 try:
@@ -106,7 +106,7 @@ def ImportaDatiAltervista(request):
             conn.commit()  # Commit dopo aver elaborato tutte le SIM disattivate
 
 
-        # 4️⃣ Inserisci le SIM non attive
+        # SIM non attive
         if "SIMNonAttiva" in dati:
             for sim in dati["SIMNonAttiva"]:
                 try:
@@ -122,7 +122,7 @@ def ImportaDatiAltervista(request):
 
             conn.commit()  # Commit per SIMNonAttiva
 
-        # 5️⃣ Inserisci le telefonate
+        # telefonate
         if "Telefonata" in dati:
             for tel in dati["Telefonata"]:
                 try:
