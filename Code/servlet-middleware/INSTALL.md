@@ -31,7 +31,7 @@ Chiudere e riaprire il terminale per applicare le modifiche.
 ```sh
 export DB_URL="jdbc:postgresql://localhost:5432/telefonia"
 export DB_USER="postgres"
-export DB_PASSWORD="password_del_prof"
+export DB_PASSWORD="password"
 ```
 ⚠️ **Nota**: Su Linux/macOS, queste variabili vanno rieseguite ad ogni riavvio.  
 Per renderle permanenti, aggiungerle a `~/.bashrc` o `~/.zshrc`.
