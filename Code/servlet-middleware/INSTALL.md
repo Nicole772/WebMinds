@@ -70,6 +70,25 @@ Se la compilazione è riuscita, il file `TelefoniaServlet.class` sarà in:
 WEB-INF/classes/servlet/TelefoniaServlet.class
 ```
 
+## 🚨 **IMPORT NECESSARI PER TOMCAT 10+**
+Se si utilizza **Tomcat 10 o superiore**, è necessario aggiornare gli import nella servlet per usare il package `jakarta.servlet` anziché `javax.servlet`. Ecco gli import corretti:
+
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+```
+
+
 ---
 
 ## 4️⃣ **AVVIARE TOMCAT**
