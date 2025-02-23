@@ -80,7 +80,8 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
      ```
    - Il file telefonia_dump.sql è disponibile nella cartella database-dump/ del repository. Può essere scaricato manualmente       da qui e poi importato con il seguente comando:
      ```sh
-     psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
+     curl -L -o telefonia_dump.sql https://github.com/Nicole772/WebMinds/raw/main/Code/webservice-local/telefonia_dump.sql &&      psql -U postgres -d Telefonia -f telefonia_dump.sql
+
      ```
 
 4. **Configurazione di `settings.py`**:
