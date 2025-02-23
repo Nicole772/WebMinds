@@ -12,7 +12,7 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
 
 ## Installazione
 
-1. **Clona il repository** (opzionale):
+1. **Clona il repository** :
    ```sh
    git clone https://github.com/Nicole772/WebMinds.git
    cd WebMinds/Code/webservice-local
