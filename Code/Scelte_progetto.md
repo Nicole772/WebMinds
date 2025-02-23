@@ -1,8 +1,5 @@
 # Scelte di Progetto
 
-## Introduzione
-Il progetto ha l'obiettivo di gestire l'importazione e l'elaborazione dei dati relativi ai contratti telefonici e alle SIM, provenienti da un webservice remoto, attraverso un'architettura scalabile e strutturata. L'implementazione prevede l'uso di una **Servlet Java** per richiamare il webservice remoto, un **webservice locale basato su Django** per processare i dati e un **database PostgreSQL** per la loro memorizzazione.
-
 ## Architettura del Sistema
 Il sistema è composto da tre componenti principali:
 1. **Servlet Java** (eseguita su Apache Tomcat) che richiama il webservice remoto e invia i dati al webservice locale.
