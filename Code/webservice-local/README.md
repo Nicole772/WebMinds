@@ -1,4 +1,3 @@
-
 # Webservice Django - Importazione dati in PostgreSQL
 
 ## Descrizione
@@ -12,26 +11,21 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
 - **Git** (per clonare il repository, opzionale)
 
 ## Installazione
+
 1. **Clona il repository** (opzionale):
    ```sh
    git clone https://github.com/Nicole772/WebMinds.git
    cd WebMinds/Code/webservice-local
    ```
 
-2. **Crea un ambiente virtuale e attivalo**:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # Mac/Linux
-   venv\Scripts\activate  # Windows
-   ```
 
-3. **Installa le dipendenze**:
+2. **Installa le dipendenze**:
    ```sh
    pip install django psycopg2
    ```
 
-4. **Configura il database PostgreSQL**:
-   - Assicurati che PostgreSQL sia installato e avviato
+3. **Configura il database PostgreSQL**:
+   - Assicurati che PostgreSQL sia installato e avviato.
    - Accedi a PostgreSQL con:
      ```sh
      psql -U postgres
@@ -84,15 +78,39 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
      );
      ```
 
+4. **Configurazione di `settings.py`**:
+   - Modifica il file `settings.py` per configurare il database PostgreSQL:
+     ```python
+     DATABASES = {
+         'default': {
+             'ENGINE': 'django.db.backends.postgresql',
+             'NAME': 'Telefonia',
+             'USER': 'postgres',
+             'PASSWORD': 'tuapassword',
+             'HOST': 'localhost',
+             'PORT': '5432',
+         }
+     }
+     ```
+   - Sostituisci `'tuapassword'` con la password effettiva dell'utente PostgreSQL.
+
 ## Avvio del server
-1. **Esegui il server Django**:
+
+1. **Esegui le migrazioni del database**:
+   ```sh
+   python manage.py migrate
+   ```
+
+2. **Esegui il server Django**:
    ```sh
    python manage.py runserver
    ```
    Il server sarà disponibile su `http://127.0.0.1:8000/`
 
-2. **Avvia la servlet Java** (se necessario):
-   - Accedi a `http://localhost:8080/telefonia` per attivare il processo di importazione dati
+3. **Avvia la servlet Java per l'importazione dati**:
+   - Accedi a `http://localhost:8080/telefonia/telefonia` per attivare il processo di importazione dati in PostgreSQL.
+
+   - Se la servlet non si avvia, assicurati che il server applicativo (Tomcat o altro) sia in esecuzione.
 
 ## Utilizzo del Webservice
 ### Endpoint principale: `/importa-dati`
@@ -164,5 +182,5 @@ Connessione locale riuscita!
   ```
 
 ## Conclusioni
-Il webservice permette di importare dati in un database PostgreSQL garantendo consistenza e aggiornamento automatico. Se ci sono problemi, controlla `webservice.log` e verifica che il server PostgreSQL sia avviato.
+Il webservice permette di importare dati in un database PostgreSQL garantendo consistenza e aggiornamento automatico. Se ci sono problemi, controlla `webservice.log` e verifica che il server PostgreSQL sia avviato e correttamente configurato.
 
