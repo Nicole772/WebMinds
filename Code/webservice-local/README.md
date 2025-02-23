@@ -39,7 +39,46 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
      ```sh
      \c Telefonia
      ```
-   - Importa il dump del database fornito (`telefonia_dump.sql`) per popolare le tabelle:
+   - Crea le tabelle richieste:
+     ```sql
+     CREATE TABLE "ContrattoTelefonico" (
+       numero VARCHAR(20) PRIMARY KEY,
+       "dataAttivazione" DATE NOT NULL,
+       tipo VARCHAR(50) NOT NULL,
+       "minutiResidui" INT,
+       "creditoResiduo" DECIMAL(10,2)
+     );
+
+     CREATE TABLE "SIMAttiva" (
+       codice VARCHAR(20) PRIMARY KEY,
+       "tipoSIM" VARCHAR(20) NOT NULL,
+       "associataA" VARCHAR(20) REFERENCES "ContrattoTelefonico"(numero),
+       "dataAttivazione" DATE NOT NULL
+     );
+
+     CREATE TABLE "SIMDisattiva" (
+       codice VARCHAR(20) PRIMARY KEY,
+       "tipoSIM" VARCHAR(20) NOT NULL,
+       "eraAssociataA" VARCHAR(20),
+       "dataAttivazione" DATE NOT NULL,
+       "dataDisattivazione" DATE NOT NULL
+     );
+
+     CREATE TABLE "SIMNonAttiva" (
+       codice VARCHAR(20) PRIMARY KEY,
+       "tipoSIM" VARCHAR(20) NOT NULL
+     );
+
+     CREATE TABLE "Telefonata" (
+       id SERIAL PRIMARY KEY,
+       "effettuataDa" VARCHAR(20) NOT NULL REFERENCES "ContrattoTelefonico"(numero),
+       data DATE NOT NULL,
+       ora TIME NOT NULL,
+       durata INT NOT NULL,
+       costo DECIMAL(10,2) NOT NULL
+     );
+     ```
+   - Il file telefonia_dump.sql è disponibile nella cartella database-dump/ del repository. Può essere scaricato manualmente       da qui e poi importato con il seguente comando:
      ```sh
      psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
      ```
