@@ -28,6 +28,7 @@ Il sistema è composto da tre componenti principali:
 - I dati provenienti dal webservice remoto vengono elaborati con logiche di **upsert**, ovvero aggiornamento in caso di esistenza del record o inserimento se non presente.
 - Ogni entità è stata progettata per minimizzare ridondanze e garantire un accesso rapido alle informazioni.
 - Per evitare problemi di connessione o interruzioni, sono stati implementati **timeout sulle query SQL** e **log degli errori**.
+---
 Il sistema non elimina automaticamente le tuple assenti nel database sorgente per preservare la storicità dei dati ed evitare perdite accidentali o problemi dovuti a errori di sincronizzazione. Se necessario, si potrebbe implementare un meccanismo di versionamento per marcare i record non più presenti come “non attivi”, garantendo così integrità e completezza del dataset locale.
 
 ## Considerazioni Finali
