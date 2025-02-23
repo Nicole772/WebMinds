@@ -30,9 +30,8 @@ Il sistema è composto da tre componenti principali:
 
 ## Considerazioni Finali
 L’architettura scelta permette:
-- **Scalabilità**: Il sistema può essere esteso facilmente aggiungendo nuove API o modificando le regole di business.
+- **Scalabilità**: Il sistema può essere esteso aggiungendo nuove API o modificando le regole di business.
 - **Affidabilità**: L’uso di PostgreSQL assicura transazioni sicure e consistenti.
 - **Modularità**: I componenti (servlet, webservice locale, database) sono indipendenti, semplificando manutenzione e aggiornamenti futuri.
 
-Queste scelte garantiscono un sistema efficiente, robusto e facilmente adattabile a esigenze future.
 
