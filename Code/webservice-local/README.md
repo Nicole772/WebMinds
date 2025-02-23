@@ -18,7 +18,6 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
    cd WebMinds/Code/webservice-local
    ```
 
-
 2. **Installa le dipendenze**:
    ```sh
    pip install django psycopg2
@@ -38,44 +37,9 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
      ```sh
      \c Telefonia
      ```
-   - Crea le tabelle richieste:
-     ```sql
-     CREATE TABLE "ContrattoTelefonico" (
-       numero VARCHAR(20) PRIMARY KEY,
-       "dataAttivazione" DATE NOT NULL,
-       tipo VARCHAR(50) NOT NULL,
-       "minutiResidui" INT,
-       "creditoResiduo" DECIMAL(10,2)
-     );
-
-     CREATE TABLE "SIMAttiva" (
-       codice VARCHAR(20) PRIMARY KEY,
-       "tipoSIM" VARCHAR(20) NOT NULL,
-       "associataA" VARCHAR(20) REFERENCES "ContrattoTelefonico"(numero),
-       "dataAttivazione" DATE NOT NULL
-     );
-
-     CREATE TABLE "SIMDisattiva" (
-       codice VARCHAR(20) PRIMARY KEY,
-       "tipoSIM" VARCHAR(20) NOT NULL,
-       "eraAssociataA" VARCHAR(20),
-       "dataAttivazione" DATE NOT NULL,
-       "dataDisattivazione" DATE NOT NULL
-     );
-
-     CREATE TABLE "SIMNonAttiva" (
-       codice VARCHAR(20) PRIMARY KEY,
-       "tipoSIM" VARCHAR(20) NOT NULL
-     );
-
-     CREATE TABLE "Telefonata" (
-       id SERIAL PRIMARY KEY,
-       "effettuataDa" VARCHAR(20) NOT NULL REFERENCES "ContrattoTelefonico"(numero),
-       data DATE NOT NULL,
-       ora TIME NOT NULL,
-       durata INT NOT NULL,
-       costo DECIMAL(10,2) NOT NULL
-     );
+   - Importa il dump del database fornito (`telefonia_dump.sql`) per popolare le tabelle:
+     ```sh
+     psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
      ```
 
 4. **Configurazione di `settings.py`**:
@@ -109,7 +73,6 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
 
 3. **Avvia la servlet Java per l'importazione dati**:
    - Accedi a `http://localhost:8080/telefonia/telefonia` per attivare il processo di importazione dati in PostgreSQL.
-
    - Se la servlet non si avvia, assicurati che il server applicativo (Tomcat o altro) sia in esecuzione.
 
 ## Utilizzo del Webservice
@@ -180,6 +143,13 @@ Connessione locale riuscita!
   SELECT * FROM "ContrattoTelefonico";
   SELECT * FROM "SIMDisattiva";
   ```
+
+## Dump del database
+Per testare l'importazione dei dati, è disponibile un dump del database chiamato `telefonia_dump.sql`. Il file si trova nella cartella `database-dump/` e può essere importato in PostgreSQL con il comando:
+```sh
+psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
+```
+Questo dump contiene dati di esempio per testare le funzionalità del webservice.
 
 ## Conclusioni
 Il webservice permette di importare dati in un database PostgreSQL garantendo consistenza e aggiornamento automatico. Se ci sono problemi, controlla `webservice.log` e verifica che il server PostgreSQL sia avviato e correttamente configurato.
