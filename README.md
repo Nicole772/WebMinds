@@ -55,5 +55,5 @@ Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
 
 ## Componenti del Team
 
-- **De Vivo Massimo** - Matricola: 1081227
-- **Simoni Nicole** - Matricola: 1080570
+- **Massimo De Vivo** - Matricola: 1081227
+- **Nicole Simoni** - Matricola: 1080570
