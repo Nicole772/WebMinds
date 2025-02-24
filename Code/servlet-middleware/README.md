@@ -54,22 +54,33 @@ mv telefonia/ /usr/local/tomcat/webapps/
 ---
 
 ## 3️⃣ **COMPILARE LA SERVLET**
-Aprire un terminale nella cartella del progetto e compilare la servlet:
+
+Aprire un terminale nella cartella del progetto e compilare la servlet utilizzando il comando appropriato per il proprio sistema operativo. 
 
 ### 🔹 **Windows (cmd)**
+Su Windows, utilizzare il comando seguente, assicurandosi che la codifica sia impostata su UTF-8 per evitare problemi con caratteri speciali:
 ```sh
-javac -cp "WEB-INF/lib/*;." -d WEB-INF/classes src/servlet/TelefoniaServlet.java
-```
-### 🔹 **Linux/macOS**
-```sh
-javac -cp "WEB-INF/lib/*:." -d WEB-INF/classes src/servlet/TelefoniaServlet.java
+javac -encoding UTF-8 -cp "WEB-INF/lib/*;." -d WEB-INF/classes src/servlet/TelefoniaServlet.java
 ```
 
-Se la compilazione è riuscita, il file `TelefoniaServlet.class` sarà in:
+### 🔹 **Linux/macOS**
+Su macOS e Linux, il separatore di classpath è `:` anziché `;`. Il comando corretto è:
+```sh
+javac -encoding UTF-8 -cp "WEB-INF/lib/*:." -d WEB-INF/classes src/servlet/TelefoniaServlet.java
 ```
+
+Se si utilizza Tomcat installato tramite Homebrew su macOS, potrebbe essere necessario specificare manualmente il percorso della libreria `servlet-api.jar`, come nell'esempio seguente:
+```sh
+javac -encoding UTF-8 -cp "/opt/homebrew/Cellar/tomcat/11.0.4/libexec/lib/servlet-api.jar:/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/lib/*:." -d ../WEB-INF/classes/ servlet/TelefoniaServlet.java
+```
+
+Se la compilazione è riuscita, il file `TelefoniaServlet.class` sarà generato in:
+```sh
 WEB-INF/classes/servlet/TelefoniaServlet.class
 ```
 
+
+---
 ## 🚨 **IMPORT NECESSARI PER TOMCAT 10+**
 Se si utilizza **Tomcat 10 o superiore**, è necessario aggiornare gli import nella servlet per usare il package `jakarta.servlet` anziché `javax.servlet`. Ecco gli import corretti:
 
