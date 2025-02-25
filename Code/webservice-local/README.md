@@ -13,12 +13,11 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
 ## Installazione
 
 ## 1️⃣ **Scaricare il codice sorgente**
-   - Vai su [Code](https://github.com/Nicole772/WebMinds/tree/main/Code) e scarica le cartelle `webservice-local` e `servlet-middleware`.
-   - Se preferisci clonare l'intero repository, usa il seguente comando:
-     ```sh
-     git clone https://github.com/Nicole772/WebMinds.git
-     cd WebMinds/Code/webservice-local
-     ```
+Clonare il repository o scaricare manualmente i file richiesti:
+```sh
+git clone https://github.com/Nicole772/WebMinds.git
+cd WebMinds/Code/webservice-local
+```
 
 ## 2️⃣ **Installare le dipendenze**
    ```sh
