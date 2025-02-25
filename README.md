@@ -15,7 +15,8 @@ Per installare il webservice completo, seguire questi passaggi nell'ordine indic
    Dopo aver configurato e avviato il webservice locale, installare la servlet seguendo le istruzioni del relativo README.  
    [Istruzioni per la Servlet Middleware](https://github.com/Nicole772/WebMinds/blob/main/Code/servlet-middleware/README.md)
 
-## Descrizione del Primo Progetto
+# Primo Progetto
+## Descrizione del Progetto
 
 Il progetto si basa sul database **Telefoni (Ex 2)** e implementa le seguenti caratteristiche:
 
