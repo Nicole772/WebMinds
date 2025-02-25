@@ -135,11 +135,24 @@ Se ci sono errori, controllare i log di Tomcat:
 
 ---
 
-## 📌 **NOTE IMPORTANTI**
-- Se **PostgreSQL ha credenziali diverse**, modificare le variabili d’ambiente.
-- **Tomcat e PostgreSQL devono essere attivi** prima di eseguire la servlet.
+🔹 Risoluzione problemi
 
----
+Errore: ClassNotFoundException: org.postgresql.Driver
+
+🔹 Soluzione: Assicurarsi che il driver PostgreSQL (postgresql.jar) sia presente in WEB-INF/lib/.
+
+Errore: 404 Not Found
+
+🔹 Soluzione: Verificare che la servlet sia mappata correttamente in web.xml.
+
+📌 Note importanti
+
+Se PostgreSQL ha credenziali diverse, aggiornare le variabili d’ambiente.
+
+Tomcat e PostgreSQL devono essere attivi prima di eseguire la servlet.
+
+In caso di problemi, consultare i log di sistema per diagnosticare errori specifici.
+
 
 
 
