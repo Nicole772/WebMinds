@@ -99,6 +99,13 @@ psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
      ```
 ⚠️ **Importante**: Sostituire `'tuapassword'` con la password effettiva dell'utente PostgreSQL.
 
+## Installazione della Servlet Middleware
+
+⚠️ **Attenzione:** Prima di procedere con l'avvio del webservice locale, è fondamentale installare e configurare correttamente la Servlet Middleware, che gestisce la comunicazione tra il webservice remoto e il servizio locale. Per l'installazione della servlet, seguire attentamente le istruzioni riportate nel README dedicato, disponibile al seguente link:
+
+[Installazione della Servlet Middleware](https://github.com/Nicole772/WebMinds/blob/main/Code/servlet-middleware/README.md)
+
+Una volta completata l'installazione della servlet, si può procedere con l'installazione e l'avvio del webservice locale come descritto nelle sezioni successive.
 
 ## 5️⃣ **Avviare il webservice Django**er
 
