@@ -2,7 +2,20 @@
 
 Benvenuti al repository del progetto **WebMinds**, un gestionale web per la gestione dei contratti telefonici, sviluppato come progetto per il corso di **Programmazione Web 2023-2024**. Questo sistema offre un'interfaccia per la gestione di dati relativi a telefonate, contratti, SIM attive, disattivate e non attive, utilizzando operazioni CRUD complete e funzionalità di ricerca avanzata.
 
-## Descrizione del Progetto
+# SECONDO PROGETTO
+## Installazione
+
+Per installare il webservice completo, seguire questi passaggi nell'ordine indicato:
+
+1. **Webservice Locale (Django)**  
+   Consultare il README dedicato al webservice locale e seguire le istruzioni per installare e configurare il servizio.  
+   [Istruzioni per il Webservice Locale](https://github.com/Nicole772/WebMinds/blob/main/Code/webservice-local/README.md)
+
+2. **Servlet Middleware (Java)**  
+   Dopo aver configurato e avviato il webservice locale, installare la servlet seguendo le istruzioni del relativo README.  
+   [Istruzioni per la Servlet Middleware](https://github.com/Nicole772/WebMinds/blob/main/Code/servlet-middleware/README.md)
+
+## Descrizione del Primo Progetto
 
 Il progetto si basa sul database **Telefoni (Ex 2)** e implementa le seguenti caratteristiche:
 
@@ -53,17 +66,6 @@ Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
 - Ricerca avanzata e filtraggio dei dati.
 - Operazioni CRUD sulla tabella "Telefonata".
 
-## Installazione
-
-Per installare il sistema completo, seguire questi passaggi nell'ordine indicato:
-
-1. **Webservice Locale (Django)**  
-   Consultare il README dedicato al webservice locale e seguire le istruzioni per installare e configurare il servizio.  
-   [Istruzioni per il Webservice Locale](https://github.com/Nicole772/WebMinds/blob/main/Code/webservice-local/README.md)
-
-2. **Servlet Middleware (Java)**  
-   Dopo aver configurato e avviato il webservice locale, installare la servlet seguendo le istruzioni del relativo README.  
-   [Istruzioni per la Servlet Middleware](https://github.com/Nicole772/WebMinds/blob/main/Code/servlet-middleware/README.md)
 
 
 ## Componenti del Team
