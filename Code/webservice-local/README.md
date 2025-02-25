@@ -1,9 +1,9 @@
 # Webservice Django - Importazione dati in PostgreSQL
 
-## Descrizione
+## ✅ **Introduzione**
 Questo progetto implementa un webservice basato su Django che importa dati JSON ricevuti da un webservice remoto e li memorizza in un database PostgreSQL locale. Il servizio gestisce informazioni relative a contratti telefonici, SIM attive, SIM disattivate, SIM non attive e telefonate.
 
-## Requisiti
+## ✅ **Requisiti**
 - **Python 3.11+**
 - **Django** (`pip install django`)
 - **PostgreSQL** (`sudo apt install postgresql` su Linux o [download da qui](https://www.postgresql.org/download/) per Windows/Mac)
@@ -12,7 +12,7 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
 
 ## Installazione
 
-1. **Scarica il codice sorgente**:
+## 1️⃣ **Scaricare il codice sorgente**
    - Vai su [Code](https://github.com/Nicole772/WebMinds/tree/main/Code) e scarica le cartelle `webservice-local` e `servlet-middleware`.
    - Se preferisci clonare l'intero repository, usa il seguente comando:
      ```sh
@@ -20,26 +20,24 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
      cd WebMinds/Code/webservice-local
      ```
 
-2. **Installa le dipendenze**:
+## 2️⃣ **Installare le dipendenze**
    ```sh
    pip install django psycopg2
    ```
 
-3. **Configura il database PostgreSQL**:
-   - Assicurati che PostgreSQL sia installato e avviato.
-   - Accedi a PostgreSQL con:
-     ```sh
-     psql -U postgres
-     ```
-   - Crea un database `Telefonia`:
-     ```sql
-     CREATE DATABASE Telefonia;
-     ```
-   - Accedi al database con:
-     ```sh
-     \c Telefonia
-     ```
-   - Crea le tabelle richieste:
+
+## 3️⃣ **Configurare PostgreSQL**
+   - Assicurati che PostgreSQL sia installato.
+1. Avviare PostgreSQL ed eseguire:
+```sh
+psql -U postgres
+```
+2. Creare il database:
+```sql
+CREATE DATABASE Telefonia;
+\c Telefonia;
+```
+3. Creare le tabelle necessarie:
      ```sql
      CREATE TABLE "ContrattoTelefonico" (
        numero VARCHAR(20) PRIMARY KEY,
@@ -78,13 +76,13 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
        costo DECIMAL(10,2) NOT NULL
      );
      ```
-   - Il file telefonia_dump.sql è disponibile nella cartella database-dump/ del repository. Può essere scaricato manualmente       da qui e poi importato con il seguente comando:
+🔹 **Nota**: Il file telefonia_dump.sql è disponibile nella cartella database-dump/ del repository. Può essere scaricato manualmente       da qui e poi importato con il seguente comando:
      ```sh
      curl -L -o telefonia_dump.sql https://github.com/Nicole772/WebMinds/raw/main/Code/webservice-local/telefonia_dump.sql &&      psql -U postgres -d Telefonia -f telefonia_dump.sql
 
      ```
 
-4. **Configurazione di `settings.py`**:
+## 4️⃣ **Configurare Django**
    - Modifica il file `settings.py` per configurare il database PostgreSQL:
      ```python
      DATABASES = {
@@ -98,9 +96,10 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
          }
      }
      ```
-   - Sostituisci `'tuapassword'` con la password effettiva dell'utente PostgreSQL.
+⚠️ **Importante**: Sostituire `'tuapassword'` con la password effettiva dell'utente PostgreSQL.
 
-## Avvio del server
+
+## 5️⃣ **Avviare il webservice Django**er
 
 1. **Esegui le migrazioni del database**:
    ```sh
@@ -111,13 +110,14 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
    ```sh
    python manage.py runserver
    ```
-   Il server sarà disponibile su `http://127.0.0.1:8000/`
+  🔹 Il webservice sarà disponibile su `http://127.0.0.1:8000/`
 
-3. **Avvia la servlet Java per l'importazione dati**:
+## 6️⃣ **Avviare la servlet Java per l'importazione dati**
    - Accedi a `http://localhost:8080/telefonia/telefonia` per attivare il processo di importazione dati in PostgreSQL.
    - Se la servlet non si avvia, assicurati che il server applicativo (Tomcat o altro) sia in esecuzione.
 
-## Utilizzo del Webservice
+
+## 7️⃣ **Utilizzo del Webservice**
 ### Endpoint principale: `/importa-dati`
 - **Metodo:** `POST`
 - **Formato:** JSON
@@ -164,7 +164,7 @@ Questo progetto implementa un webservice basato su Django che importa dati JSON 
 }
 ```
 
-## Test della connessione
+## 8️⃣ **Test della connessione**
 Per verificare che il database sia accessibile, visita l'endpoint:
 ```
 http://127.0.0.1:8000/test-connessione/
@@ -174,23 +174,36 @@ Se la connessione è attiva, riceverai il messaggio:
 Connessione locale riuscita!
 ```
 
-## Debug e gestione errori
+## 🔹 **Risoluzione problemi**
 - **Errori vengono registrati nel file `webservice.log`**
 - **Puoi visualizzarli con:**
   ```sh
   cat webservice.log
   ```
+### Errore: `FATAL: password authentication failed for user "postgres"`
+🔹 **Soluzione**: Verificare che la password specificata in `settings.py` sia corretta.
+
+### Errore: `ModuleNotFoundError: No module named 'django'`
+🔹 **Soluzione**: Assicurarsi di aver installato Django con:
+```sh
+pip install django
+```
+
+
+  
 - **Esegui query manuali per verificare i dati in PostgreSQL:**
   ```sql
   SELECT * FROM "ContrattoTelefonico";
   SELECT * FROM "SIMDisattiva";
   ```
 
-## Dump del database
-Per testare l'importazione dei dati, è disponibile un dump del database chiamato `telefonia_dump.sql`. Il file si trova nella cartella `database-dump/` e può essere importato in PostgreSQL con il comando:
+## 📌 **Note importanti**
+- **Django, PostgreSQL e Tomcat devono essere avviati** prima di eseguire il servizio.
+- **In caso di problemi, controllare i log del webservice:**
 ```sh
-psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
+cat webservice.log
 ```
+
 Questo dump contiene dati di esempio per testare le funzionalità del webservice.
 
 ## Conclusioni
