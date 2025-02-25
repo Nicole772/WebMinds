@@ -19,6 +19,9 @@ git clone https://github.com/Nicole772/WebMinds.git
 cd WebMinds/Code/webservice-local
 ```
 
+
+Se si preferisce il download manuale, scaricare le cartelle `webservice-local` e `servlet-middleware` dal [repository GitHub](https://github.com/Nicole772/WebMinds/tree/main/Code).
+
 ## 2️⃣ **Installare le dipendenze**
    ```sh
    pip install django psycopg2
