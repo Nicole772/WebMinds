@@ -53,6 +53,19 @@ Visita il sito per esplorare tutte le funzionalità del gestionale, tra cui:
 - Ricerca avanzata e filtraggio dei dati.
 - Operazioni CRUD sulla tabella "Telefonata".
 
+## Installazione
+
+Per installare il sistema completo, seguire questi passaggi nell'ordine indicato:
+
+1. **Webservice Locale (Django)**  
+   Consultare il README dedicato al webservice locale e seguire le istruzioni per installare e configurare il servizio.  
+   [Istruzioni per il Webservice Locale](https://github.com/Nicole772/WebMinds/blob/main/Code/webservice-local/README.md)
+
+2. **Servlet Middleware (Java)**  
+   Dopo aver configurato e avviato il webservice locale, installare la servlet seguendo le istruzioni del relativo README.  
+   [Istruzioni per la Servlet Middleware](https://github.com/Nicole772/WebMinds/blob/main/Code/servlet-middleware/README.md)
+
+
 ## Componenti del Team
 
 - **Massimo De Vivo** - Matricola: 1081227
