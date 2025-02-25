@@ -78,11 +78,10 @@ CREATE DATABASE Telefonia;
        costo DECIMAL(10,2) NOT NULL
      );
      ```
-🔹 **Nota**: Il file telefonia_dump.sql è disponibile nella cartella database-dump/ del repository. Può essere scaricato manualmente       da qui e poi importato con il seguente comando:
-     ```sh
-     curl -L -o telefonia_dump.sql https://github.com/Nicole772/WebMinds/raw/main/Code/webservice-local/telefonia_dump.sql &&      psql -U postgres -d Telefonia -f telefonia_dump.sql
-
-     ```
+🔹 **Nota**: Il file `telefonia_dump.sql` con il database preconfigurato è disponibile nella cartella `database-dump/` del repository e può essere importato con:
+```sh
+psql -U postgres -d Telefonia -f database-dump/telefonia_dump.sql
+```
 
 ## 4️⃣ **Configurare Django**
    - Modifica il file `settings.py` per configurare il database PostgreSQL:
