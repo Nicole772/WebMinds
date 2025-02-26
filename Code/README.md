@@ -10,7 +10,7 @@ Questa directory contiene il codice dei principali servizi che compongono il sec
 - **`servlet-middleware/`** - Contiene la servlet Java che agisce da intermediario tra il webservice remoto e il webservice locale, gestendo la migrazione dei dati.  
   - 🔗 **[Guida all'installazione](https://github.com/Nicole772/WebMinds/blob/main/Code/servlet-middleware/README.md)**  
 
-- **`webservice-remote/`** *(eventuale, se presente)* - Contiene il webservice remoto in PHP che espone i dati archiviati nel database online.  
+- **`webservice-remote/`** Contiene il webservice remoto in PHP che espone i dati archiviati nel database online.  
 
 ## ⚙️ Installazione  
 
