@@ -1,6 +1,6 @@
 # 📂 WebMinds - Codice dei Servizi  
 
-Questa directory contiene il codice dei principali servizi che compongono il progetto **WebMinds**, un gestionale per la gestione dei contratti telefonici. Ogni cartella al suo interno corrisponde a un servizio specifico, necessario per il corretto funzionamento del sistema.  
+Questa directory contiene il codice dei principali servizi che compongono il secondo progetto di `Programmazione-WEB`, un gestionale per la gestione dei contratti telefonici. Ogni cartella al suo interno corrisponde a un servizio specifico, necessario per il corretto funzionamento del sistema.  
 
 ## 📌 Struttura delle Cartelle  
 
